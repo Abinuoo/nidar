@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nidar_interfaces__py",
+		"source" : "/home/abinu/nidar_ws/build/nidar_interfaces/nidar_interfaces__py"
+	}
+}

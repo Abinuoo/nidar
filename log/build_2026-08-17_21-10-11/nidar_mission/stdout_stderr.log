@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating nidar_mission.egg-info
+writing nidar_mission.egg-info/PKG-INFO
+writing dependency_links to nidar_mission.egg-info/dependency_links.txt
+writing requirements to nidar_mission.egg-info/requires.txt
+writing top-level names to nidar_mission.egg-info/top_level.txt
+writing manifest file 'nidar_mission.egg-info/SOURCES.txt'
+reading manifest file 'nidar_mission.egg-info/SOURCES.txt'
+writing manifest file 'nidar_mission.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abinu/nidar_ws/install/nidar_mission/lib/python3.12/site-packages/nidar-mission.egg-link (link to .)
+
+Installed /home/abinu/nidar_ws/build/nidar_mission
+running symlink_data
+creating /home/abinu/nidar_ws/install/nidar_mission/share/ament_index
+creating /home/abinu/nidar_ws/install/nidar_mission/share/ament_index/resource_index
+creating /home/abinu/nidar_ws/install/nidar_mission/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_mission/resource/nidar_mission -> /home/abinu/nidar_ws/install/nidar_mission/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_mission/package.xml -> /home/abinu/nidar_ws/install/nidar_mission/share/nidar_mission

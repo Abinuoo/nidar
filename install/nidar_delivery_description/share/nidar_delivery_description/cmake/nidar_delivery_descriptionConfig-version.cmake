@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/nidar_delivery_description/ament_cmake_core/nidar_delivery_descriptionConfig-version.cmake

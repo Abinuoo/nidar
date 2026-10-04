@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+nidar_scout/__init__.py
+nidar_scout/scout_node.py
+nidar_scout.egg-info/PKG-INFO
+nidar_scout.egg-info/SOURCES.txt
+nidar_scout.egg-info/dependency_links.txt
+nidar_scout.egg-info/entry_points.txt
+nidar_scout.egg-info/requires.txt
+nidar_scout.egg-info/top_level.txt
+nidar_scout.egg-info/zip-safe
+resource/nidar_scout

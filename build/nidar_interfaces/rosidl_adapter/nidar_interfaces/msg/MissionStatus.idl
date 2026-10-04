@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nidar_interfaces/msg/MissionStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module nidar_interfaces {
+  module msg {
+    struct MissionStatus {
+      builtin_interfaces::msg::Time timestamp;
+
+      string mission_id;
+
+      string state;
+
+      uint32 survivors_detected;
+
+      uint32 survivors_geotagged;
+
+      uint32 deliveries_pending;
+
+      uint32 deliveries_completed;
+
+      float completion_percent;
+
+      float elapsed_time_sec;
+    };
+  };
+};

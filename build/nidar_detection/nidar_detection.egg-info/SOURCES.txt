@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+nidar_detection/__init__.py
+nidar_detection.egg-info/PKG-INFO
+nidar_detection.egg-info/SOURCES.txt
+nidar_detection.egg-info/dependency_links.txt
+nidar_detection.egg-info/requires.txt
+nidar_detection.egg-info/top_level.txt
+nidar_detection.egg-info/zip-safe
+resource/nidar_detection

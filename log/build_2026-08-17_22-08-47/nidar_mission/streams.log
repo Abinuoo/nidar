@@ -1,0 +1,17 @@
+[0.798s] Invoking command in '/home/abinu/nidar_ws/build/nidar_mission': CMAKE_PREFIX_PATH=/home/abinu/nidar_ws/install/nidar_interfaces:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_mission/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_mission/build --no-deps symlink_data
+[1.026s] running develop
+[1.148s] running egg_info
+[1.159s] writing nidar_mission.egg-info/PKG-INFO
+[1.159s] writing dependency_links to nidar_mission.egg-info/dependency_links.txt
+[1.159s] writing entry points to nidar_mission.egg-info/entry_points.txt
+[1.159s] writing requirements to nidar_mission.egg-info/requires.txt
+[1.159s] writing top-level names to nidar_mission.egg-info/top_level.txt
+[1.183s] reading manifest file 'nidar_mission.egg-info/SOURCES.txt'
+[1.184s] writing manifest file 'nidar_mission.egg-info/SOURCES.txt'
+[1.202s] running build_ext
+[1.202s] Creating /home/abinu/nidar_ws/install/nidar_mission/lib/python3.12/site-packages/nidar-mission.egg-link (link to .)
+[1.203s] Installing mission_manager script to /home/abinu/nidar_ws/install/nidar_mission/lib/nidar_mission
+[1.203s] 
+[1.203s] Installed /home/abinu/nidar_ws/build/nidar_mission
+[1.203s] running symlink_data
+[1.234s] Invoked command in '/home/abinu/nidar_ws/build/nidar_mission' returned '0': CMAKE_PREFIX_PATH=/home/abinu/nidar_ws/install/nidar_interfaces:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_mission/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_mission/build --no-deps symlink_data

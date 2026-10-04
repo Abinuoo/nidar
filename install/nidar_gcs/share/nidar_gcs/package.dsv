@@ -1,0 +1,9 @@
+source;share/nidar_gcs/hook/pythonpath.ps1
+source;share/nidar_gcs/hook/pythonpath.dsv
+source;share/nidar_gcs/hook/pythonpath.sh
+source;share/nidar_gcs/hook/ament_prefix_path.ps1
+source;share/nidar_gcs/hook/ament_prefix_path.dsv
+source;share/nidar_gcs/hook/ament_prefix_path.sh
+source;../../build/nidar_gcs/share/nidar_gcs/hook/pythonpath_develop.ps1
+source;../../build/nidar_gcs/share/nidar_gcs/hook/pythonpath_develop.dsv
+source;../../build/nidar_gcs/share/nidar_gcs/hook/pythonpath_develop.sh

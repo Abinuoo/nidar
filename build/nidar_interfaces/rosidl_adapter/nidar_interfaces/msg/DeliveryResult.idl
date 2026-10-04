@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nidar_interfaces/msg/DeliveryResult.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module nidar_interfaces {
+  module msg {
+    struct DeliveryResult {
+      builtin_interfaces::msg::Time timestamp;
+
+      uint32 task_id;
+
+      uint32 survivor_id;
+
+      boolean success;
+
+      double drop_x;
+
+      double drop_y;
+
+      double drop_z;
+
+      double horizontal_error_m;
+
+      uint8 accuracy_zone;
+
+      string status;
+    };
+  };
+};

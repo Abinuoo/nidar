@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_result__type_support_c.cpp.o"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_result__type_support_c.cpp.o.d"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_task__type_support_c.cpp.o"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_task__type_support_c.cpp.o.d"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/drone_status__type_support_c.cpp.o"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/drone_status__type_support_c.cpp.o.d"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_score__type_support_c.cpp.o"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_score__type_support_c.cpp.o.d"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_status__type_support_c.cpp.o"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_status__type_support_c.cpp.o.d"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/survivor_detection__type_support_c.cpp.o"
+  "CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/survivor_detection__type_support_c.cpp.o.d"
+  "libnidar_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libnidar_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_result__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_result__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_task__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/delivery_task__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/drone_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/drone_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_score__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_score__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/mission_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/survivor_detection__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/nidar_interfaces/msg/detail/survivor_detection__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nidar_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

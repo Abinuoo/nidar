@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nidar_interfaces/msg/SurvivorDetection.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module nidar_interfaces {
+  module msg {
+    struct SurvivorDetection {
+      builtin_interfaces::msg::Time timestamp;
+
+      uint32 survivor_id;
+
+      string source_drone;
+
+      double x;
+
+      double y;
+
+      double z;
+
+      double latitude;
+
+      double longitude;
+
+      float confidence;
+
+      boolean geotag_valid;
+    };
+  };
+};

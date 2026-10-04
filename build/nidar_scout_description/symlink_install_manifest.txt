@@ -1,0 +1,15 @@
+/home/abinu/nidar_ws/install/nidar_scout_description/share/ament_index/resource_index/package_run_dependencies/nidar_scout_description
+/home/abinu/nidar_ws/install/nidar_scout_description/share/ament_index/resource_index/parent_prefix_path/nidar_scout_description
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/environment/ament_prefix_path.sh
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/environment/ament_prefix_path.dsv
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/environment/path.sh
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/environment/path.dsv
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/local_setup.bash
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/local_setup.sh
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/local_setup.zsh
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/local_setup.dsv
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/package.dsv
+/home/abinu/nidar_ws/install/nidar_scout_description/share/ament_index/resource_index/packages/nidar_scout_description
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/cmake/nidar_scout_descriptionConfig.cmake
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/cmake/nidar_scout_descriptionConfig-version.cmake
+/home/abinu/nidar_ws/install/nidar_scout_description/share/nidar_scout_description/package.xml

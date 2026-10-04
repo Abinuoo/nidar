@@ -1,0 +1,22 @@
+[2.500s] Invoking command in '/home/abinu/nidar_ws/build/nidar_scoring': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_scoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_scoring/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_scoring/build --no-deps symlink_data
+[3.308s] running develop
+[3.677s] running egg_info
+[3.677s] creating nidar_scoring.egg-info
+[3.712s] writing nidar_scoring.egg-info/PKG-INFO
+[3.712s] writing dependency_links to nidar_scoring.egg-info/dependency_links.txt
+[3.715s] writing requirements to nidar_scoring.egg-info/requires.txt
+[3.716s] writing top-level names to nidar_scoring.egg-info/top_level.txt
+[3.716s] writing manifest file 'nidar_scoring.egg-info/SOURCES.txt'
+[3.781s] reading manifest file 'nidar_scoring.egg-info/SOURCES.txt'
+[3.782s] writing manifest file 'nidar_scoring.egg-info/SOURCES.txt'
+[3.819s] running build_ext
+[3.819s] Creating /home/abinu/nidar_ws/install/nidar_scoring/lib/python3.12/site-packages/nidar-scoring.egg-link (link to .)
+[3.820s] 
+[3.820s] Installed /home/abinu/nidar_ws/build/nidar_scoring
+[3.820s] running symlink_data
+[3.821s] creating /home/abinu/nidar_ws/install/nidar_scoring/share/ament_index
+[3.821s] creating /home/abinu/nidar_ws/install/nidar_scoring/share/ament_index/resource_index
+[3.821s] creating /home/abinu/nidar_ws/install/nidar_scoring/share/ament_index/resource_index/packages
+[3.821s] symbolically linking /home/abinu/nidar_ws/build/nidar_scoring/resource/nidar_scoring -> /home/abinu/nidar_ws/install/nidar_scoring/share/ament_index/resource_index/packages
+[3.821s] symbolically linking /home/abinu/nidar_ws/build/nidar_scoring/package.xml -> /home/abinu/nidar_ws/install/nidar_scoring/share/nidar_scoring
+[3.946s] Invoked command in '/home/abinu/nidar_ws/build/nidar_scoring' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_scoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_scoring/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_scoring/build --no-deps symlink_data

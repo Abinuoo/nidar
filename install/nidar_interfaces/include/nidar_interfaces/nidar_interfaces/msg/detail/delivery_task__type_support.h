@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_c/nidar_interfaces/msg/detail/delivery_task__type_support.h

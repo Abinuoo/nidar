@@ -1,0 +1,11 @@
+{
+  "package_name": "nidar_interfaces",
+  "non_idl_tuples": [
+    "/home/abinu/nidar_ws/src/nidar_interfaces:msg/SurvivorDetection.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces:msg/DeliveryTask.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces:msg/DeliveryResult.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces:msg/DroneStatus.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces:msg/MissionStatus.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces:msg/MissionScore.msg"
+  ]
+}

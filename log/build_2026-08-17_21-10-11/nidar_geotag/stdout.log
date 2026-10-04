@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating nidar_geotag.egg-info
+writing nidar_geotag.egg-info/PKG-INFO
+writing dependency_links to nidar_geotag.egg-info/dependency_links.txt
+writing requirements to nidar_geotag.egg-info/requires.txt
+writing top-level names to nidar_geotag.egg-info/top_level.txt
+writing manifest file 'nidar_geotag.egg-info/SOURCES.txt'
+reading manifest file 'nidar_geotag.egg-info/SOURCES.txt'
+writing manifest file 'nidar_geotag.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abinu/nidar_ws/install/nidar_geotag/lib/python3.12/site-packages/nidar-geotag.egg-link (link to .)
+
+Installed /home/abinu/nidar_ws/build/nidar_geotag
+running symlink_data
+creating /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index
+creating /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index/resource_index
+creating /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_geotag/resource/nidar_geotag -> /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_geotag/package.xml -> /home/abinu/nidar_ws/install/nidar_geotag/share/nidar_geotag

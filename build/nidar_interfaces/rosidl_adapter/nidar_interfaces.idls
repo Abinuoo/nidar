@@ -1,0 +1,6 @@
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/SurvivorDetection.idl
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DeliveryTask.idl
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DeliveryResult.idl
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DroneStatus.idl
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/MissionStatus.idl
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/MissionScore.idl

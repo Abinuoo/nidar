@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/nidar_scout_description/ament_cmake_core/nidar_scout_descriptionConfig-version.cmake

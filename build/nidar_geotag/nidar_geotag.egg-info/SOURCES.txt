@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+nidar_geotag/__init__.py
+nidar_geotag.egg-info/PKG-INFO
+nidar_geotag.egg-info/SOURCES.txt
+nidar_geotag.egg-info/dependency_links.txt
+nidar_geotag.egg-info/requires.txt
+nidar_geotag.egg-info/top_level.txt
+nidar_geotag.egg-info/zip-safe
+resource/nidar_geotag

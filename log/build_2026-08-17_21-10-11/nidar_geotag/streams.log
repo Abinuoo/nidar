@@ -1,0 +1,22 @@
+[4.932s] Invoking command in '/home/abinu/nidar_ws/build/nidar_geotag': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_geotag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_geotag/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_geotag/build --no-deps symlink_data
+[5.606s] running develop
+[6.028s] running egg_info
+[6.028s] creating nidar_geotag.egg-info
+[6.068s] writing nidar_geotag.egg-info/PKG-INFO
+[6.068s] writing dependency_links to nidar_geotag.egg-info/dependency_links.txt
+[6.068s] writing requirements to nidar_geotag.egg-info/requires.txt
+[6.068s] writing top-level names to nidar_geotag.egg-info/top_level.txt
+[6.069s] writing manifest file 'nidar_geotag.egg-info/SOURCES.txt'
+[6.147s] reading manifest file 'nidar_geotag.egg-info/SOURCES.txt'
+[6.148s] writing manifest file 'nidar_geotag.egg-info/SOURCES.txt'
+[6.211s] running build_ext
+[6.212s] Creating /home/abinu/nidar_ws/install/nidar_geotag/lib/python3.12/site-packages/nidar-geotag.egg-link (link to .)
+[6.212s] 
+[6.212s] Installed /home/abinu/nidar_ws/build/nidar_geotag
+[6.213s] running symlink_data
+[6.213s] creating /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index
+[6.213s] creating /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index/resource_index
+[6.213s] creating /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index/resource_index/packages
+[6.213s] symbolically linking /home/abinu/nidar_ws/build/nidar_geotag/resource/nidar_geotag -> /home/abinu/nidar_ws/install/nidar_geotag/share/ament_index/resource_index/packages
+[6.213s] symbolically linking /home/abinu/nidar_ws/build/nidar_geotag/package.xml -> /home/abinu/nidar_ws/install/nidar_geotag/share/nidar_geotag
+[6.289s] Invoked command in '/home/abinu/nidar_ws/build/nidar_geotag' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_geotag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_geotag/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_geotag/build --no-deps symlink_data

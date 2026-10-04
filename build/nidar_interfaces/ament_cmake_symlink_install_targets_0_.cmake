@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_py/nidar_interfaces/nidar_interfaces_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "nidar_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/nidar_interfaces")

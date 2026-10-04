@@ -1,0 +1,22 @@
+[2.989s] Invoking command in '/home/abinu/nidar_ws/build/nidar_scout': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_scout/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_scout/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_scout/build --no-deps symlink_data
+[3.676s] running develop
+[4.046s] running egg_info
+[4.046s] creating nidar_scout.egg-info
+[4.101s] writing nidar_scout.egg-info/PKG-INFO
+[4.101s] writing dependency_links to nidar_scout.egg-info/dependency_links.txt
+[4.102s] writing requirements to nidar_scout.egg-info/requires.txt
+[4.102s] writing top-level names to nidar_scout.egg-info/top_level.txt
+[4.102s] writing manifest file 'nidar_scout.egg-info/SOURCES.txt'
+[4.203s] reading manifest file 'nidar_scout.egg-info/SOURCES.txt'
+[4.205s] writing manifest file 'nidar_scout.egg-info/SOURCES.txt'
+[4.257s] running build_ext
+[4.258s] Creating /home/abinu/nidar_ws/install/nidar_scout/lib/python3.12/site-packages/nidar-scout.egg-link (link to .)
+[4.260s] 
+[4.260s] Installed /home/abinu/nidar_ws/build/nidar_scout
+[4.261s] running symlink_data
+[4.261s] creating /home/abinu/nidar_ws/install/nidar_scout/share/ament_index
+[4.261s] creating /home/abinu/nidar_ws/install/nidar_scout/share/ament_index/resource_index
+[4.261s] creating /home/abinu/nidar_ws/install/nidar_scout/share/ament_index/resource_index/packages
+[4.261s] symbolically linking /home/abinu/nidar_ws/build/nidar_scout/resource/nidar_scout -> /home/abinu/nidar_ws/install/nidar_scout/share/ament_index/resource_index/packages
+[4.264s] symbolically linking /home/abinu/nidar_ws/build/nidar_scout/package.xml -> /home/abinu/nidar_ws/install/nidar_scout/share/nidar_scout
+[4.385s] Invoked command in '/home/abinu/nidar_ws/build/nidar_scout' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_scout/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_scout/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_scout/build --no-deps symlink_data

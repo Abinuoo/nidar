@@ -1,0 +1,4 @@
+source;share/nidar_interfaces/local_setup.bash
+source;share/nidar_interfaces/local_setup.dsv
+source;share/nidar_interfaces/local_setup.sh
+source;share/nidar_interfaces/local_setup.zsh

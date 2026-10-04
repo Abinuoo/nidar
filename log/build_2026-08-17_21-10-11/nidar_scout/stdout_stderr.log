@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating nidar_scout.egg-info
+writing nidar_scout.egg-info/PKG-INFO
+writing dependency_links to nidar_scout.egg-info/dependency_links.txt
+writing requirements to nidar_scout.egg-info/requires.txt
+writing top-level names to nidar_scout.egg-info/top_level.txt
+writing manifest file 'nidar_scout.egg-info/SOURCES.txt'
+reading manifest file 'nidar_scout.egg-info/SOURCES.txt'
+writing manifest file 'nidar_scout.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abinu/nidar_ws/install/nidar_scout/lib/python3.12/site-packages/nidar-scout.egg-link (link to .)
+
+Installed /home/abinu/nidar_ws/build/nidar_scout
+running symlink_data
+creating /home/abinu/nidar_ws/install/nidar_scout/share/ament_index
+creating /home/abinu/nidar_ws/install/nidar_scout/share/ament_index/resource_index
+creating /home/abinu/nidar_ws/install/nidar_scout/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_scout/resource/nidar_scout -> /home/abinu/nidar_ws/install/nidar_scout/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_scout/package.xml -> /home/abinu/nidar_ws/install/nidar_scout/share/nidar_scout

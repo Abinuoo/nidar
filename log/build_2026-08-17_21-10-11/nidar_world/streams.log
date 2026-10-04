@@ -1,0 +1,44 @@
+[0.024s] Invoking command in '/home/abinu/nidar_ws/build/nidar_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/abinu/nidar_ws/src/nidar_world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abinu/nidar_ws/install/nidar_world
+[0.258s] -- The C compiler identification is GNU 13.3.0
+[0.468s] -- The CXX compiler identification is GNU 13.3.0
+[0.506s] -- Detecting C compiler ABI info
+[0.773s] -- Detecting C compiler ABI info - done
+[0.799s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.800s] -- Detecting C compile features
+[0.801s] -- Detecting C compile features - done
+[0.826s] -- Detecting CXX compiler ABI info
+[1.047s] -- Detecting CXX compiler ABI info - done
+[1.067s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.068s] -- Detecting CXX compile features
+[1.069s] -- Detecting CXX compile features - done
+[1.074s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.418s] -- Found Python3: /home/abinu/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.583s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.628s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.898s] -- Added test 'lint_cmake' to check CMake code style
+[1.898s] -- Added test 'xmllint' to check XML markup files
+[1.902s] -- Configuring done (1.8s)
+[1.908s] -- Generating done (0.0s)
+[1.913s] -- Build files have been written to: /home/abinu/nidar_ws/build/nidar_world
+[1.921s] Invoked command in '/home/abinu/nidar_ws/build/nidar_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/abinu/nidar_ws/src/nidar_world -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abinu/nidar_ws/install/nidar_world
+[1.924s] Invoking command in '/home/abinu/nidar_ws/build/nidar_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/abinu/nidar_ws/build/nidar_world -- -j12 -l12
+[2.011s] Invoked command in '/home/abinu/nidar_ws/build/nidar_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/abinu/nidar_ws/build/nidar_world -- -j12 -l12
+[2.015s] Invoking command in '/home/abinu/nidar_ws/build/nidar_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/abinu/nidar_ws/build/nidar_world
+[2.028s] -- Install configuration: ""
+[2.029s] -- Execute custom install script
+[2.029s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/ament_index/resource_index/package_run_dependencies/nidar_world
+[2.045s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/ament_index/resource_index/parent_prefix_path/nidar_world
+[2.062s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/ament_prefix_path.sh
+[2.087s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/ament_prefix_path.dsv
+[2.105s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/path.sh
+[2.121s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/path.dsv
+[2.141s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.bash
+[2.162s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.sh
+[2.183s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.zsh
+[2.198s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.dsv
+[2.216s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/package.dsv
+[2.236s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/ament_index/resource_index/packages/nidar_world
+[2.257s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/cmake/nidar_worldConfig.cmake
+[2.271s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/cmake/nidar_worldConfig-version.cmake
+[2.286s] -- Symlinking: /home/abinu/nidar_ws/install/nidar_world/share/nidar_world/package.xml
+[2.306s] Invoked command in '/home/abinu/nidar_ws/build/nidar_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/abinu/nidar_ws/build/nidar_world

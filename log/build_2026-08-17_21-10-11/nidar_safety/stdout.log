@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating nidar_safety.egg-info
+writing nidar_safety.egg-info/PKG-INFO
+writing dependency_links to nidar_safety.egg-info/dependency_links.txt
+writing requirements to nidar_safety.egg-info/requires.txt
+writing top-level names to nidar_safety.egg-info/top_level.txt
+writing manifest file 'nidar_safety.egg-info/SOURCES.txt'
+reading manifest file 'nidar_safety.egg-info/SOURCES.txt'
+writing manifest file 'nidar_safety.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abinu/nidar_ws/install/nidar_safety/lib/python3.12/site-packages/nidar-safety.egg-link (link to .)
+
+Installed /home/abinu/nidar_ws/build/nidar_safety
+running symlink_data
+creating /home/abinu/nidar_ws/install/nidar_safety/share/ament_index
+creating /home/abinu/nidar_ws/install/nidar_safety/share/ament_index/resource_index
+creating /home/abinu/nidar_ws/install/nidar_safety/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_safety/resource/nidar_safety -> /home/abinu/nidar_ws/install/nidar_safety/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_safety/package.xml -> /home/abinu/nidar_ws/install/nidar_safety/share/nidar_safety

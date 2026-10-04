@@ -1,0 +1,9 @@
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/uninstall.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/nidar_world_uninstall.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/test.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/edit_cache.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/rebuild_cache.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/list_install_components.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/install.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/install/local.dir
+/home/abinu/nidar_ws/build/nidar_world/CMakeFiles/install/strip.dir

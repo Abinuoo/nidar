@@ -1,0 +1,15 @@
+/home/abinu/nidar_ws/install/nidar_world/share/ament_index/resource_index/package_run_dependencies/nidar_world
+/home/abinu/nidar_ws/install/nidar_world/share/ament_index/resource_index/parent_prefix_path/nidar_world
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/ament_prefix_path.sh
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/ament_prefix_path.dsv
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/path.sh
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/environment/path.dsv
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.bash
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.sh
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.zsh
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/local_setup.dsv
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/package.dsv
+/home/abinu/nidar_ws/install/nidar_world/share/ament_index/resource_index/packages/nidar_world
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/cmake/nidar_worldConfig.cmake
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/cmake/nidar_worldConfig-version.cmake
+/home/abinu/nidar_ws/install/nidar_world/share/nidar_world/package.xml

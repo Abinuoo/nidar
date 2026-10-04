@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3b37c48f2f2f61b17cb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ardupilot_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ArduPilotPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArduPilotPlugin-73b00e5c56057d4f2f5b.json",
+					"name" : "ArduPilotPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CameraZoomPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CameraZoomPlugin-2e0dd58edaf56034c54b.json",
+					"name" : "CameraZoomPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GstCameraPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GstCameraPlugin-bee7b2743d1c3aad17eb.json",
+					"name" : "GstCameraPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ParachutePlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ParachutePlugin-6f3e63efc40894cf6a6c.json",
+					"name" : "ParachutePlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ardupilot_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ardupilot_gazebo_uninstall-8006514f7e22c446b2c4.json",
+					"name" : "ardupilot_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-634a380480d83bdf985d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abinu/nidar_ws/build/ardupilot_gazebo",
+		"source" : "/home/abinu/nidar_ws/src/ardupilot_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

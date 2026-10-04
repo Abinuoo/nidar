@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/ardupilot_msgs/rosidl_generator_cpp/ardupilot_msgs/msg/detail/status__traits.hpp

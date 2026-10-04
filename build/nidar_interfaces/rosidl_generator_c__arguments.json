@@ -1,0 +1,62 @@
+{
+  "package_name": "nidar_interfaces",
+  "output_dir": "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_c/nidar_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/SurvivorDetection.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DeliveryTask.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DeliveryResult.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DroneStatus.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/MissionStatus.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/MissionScore.idl"
+  ],
+  "ros_interface_files": [
+    "/home/abinu/nidar_ws/src/nidar_interfaces/msg/SurvivorDetection.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces/msg/DeliveryTask.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces/msg/DeliveryResult.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces/msg/DroneStatus.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces/msg/MissionStatus.msg",
+    "/home/abinu/nidar_ws/src/nidar_interfaces/msg/MissionScore.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces/msg/SurvivorDetection.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces/msg/DeliveryTask.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces/msg/DeliveryResult.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces/msg/DroneStatus.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces/msg/MissionStatus.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces/msg/MissionScore.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/SurvivorDetection.idl:/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_type_description/nidar_interfaces/msg/SurvivorDetection.json",
+    "msg/DeliveryTask.idl:/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_type_description/nidar_interfaces/msg/DeliveryTask.json",
+    "msg/DeliveryResult.idl:/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_type_description/nidar_interfaces/msg/DeliveryResult.json",
+    "msg/DroneStatus.idl:/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_type_description/nidar_interfaces/msg/DroneStatus.json",
+    "msg/MissionStatus.idl:/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_type_description/nidar_interfaces/msg/MissionStatus.json",
+    "msg/MissionScore.idl:/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_type_description/nidar_interfaces/msg/MissionScore.json"
+  ]
+}

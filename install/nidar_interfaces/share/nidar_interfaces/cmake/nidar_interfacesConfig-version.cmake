@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/nidar_interfaces/ament_cmake_core/nidar_interfacesConfig-version.cmake

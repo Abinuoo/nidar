@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/abinu/nidar_ws/build/nidar_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/abinu/nidar_ws/build/nidar_interfaces -- -j12 -l12
+[0.027s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.219s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.226s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.311s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.615s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.615s]   Packages installing interfaces must include
+[0.615s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.615s]   package.xml
+[0.615s] Call Stack (most recent call first):
+[0.615s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.615s] 
+[0.616s] [0m
+[0.616s] -- Configuring incomplete, errors occurred!
+[0.620s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.622s] Invoked command in '/home/abinu/nidar_ws/build/nidar_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/abinu/nidar_ws/build/nidar_interfaces -- -j12 -l12

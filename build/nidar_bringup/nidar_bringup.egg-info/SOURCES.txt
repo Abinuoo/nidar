@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+nidar_bringup/__init__.py
+nidar_bringup.egg-info/PKG-INFO
+nidar_bringup.egg-info/SOURCES.txt
+nidar_bringup.egg-info/dependency_links.txt
+nidar_bringup.egg-info/requires.txt
+nidar_bringup.egg-info/top_level.txt
+nidar_bringup.egg-info/zip-safe
+resource/nidar_bringup

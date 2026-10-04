@@ -1,0 +1,22 @@
+[5.013s] Invoking command in '/home/abinu/nidar_ws/build/nidar_gcs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_gcs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_gcs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_gcs/build --no-deps symlink_data
+[5.981s] running develop
+[6.372s] running egg_info
+[6.372s] creating nidar_gcs.egg-info
+[6.409s] writing nidar_gcs.egg-info/PKG-INFO
+[6.410s] writing dependency_links to nidar_gcs.egg-info/dependency_links.txt
+[6.410s] writing requirements to nidar_gcs.egg-info/requires.txt
+[6.411s] writing top-level names to nidar_gcs.egg-info/top_level.txt
+[6.414s] writing manifest file 'nidar_gcs.egg-info/SOURCES.txt'
+[6.494s] reading manifest file 'nidar_gcs.egg-info/SOURCES.txt'
+[6.494s] writing manifest file 'nidar_gcs.egg-info/SOURCES.txt'
+[6.532s] running build_ext
+[6.535s] Creating /home/abinu/nidar_ws/install/nidar_gcs/lib/python3.12/site-packages/nidar-gcs.egg-link (link to .)
+[6.535s] 
+[6.535s] Installed /home/abinu/nidar_ws/build/nidar_gcs
+[6.535s] running symlink_data
+[6.535s] creating /home/abinu/nidar_ws/install/nidar_gcs/share/ament_index
+[6.535s] creating /home/abinu/nidar_ws/install/nidar_gcs/share/ament_index/resource_index
+[6.536s] creating /home/abinu/nidar_ws/install/nidar_gcs/share/ament_index/resource_index/packages
+[6.536s] symbolically linking /home/abinu/nidar_ws/build/nidar_gcs/resource/nidar_gcs -> /home/abinu/nidar_ws/install/nidar_gcs/share/ament_index/resource_index/packages
+[6.536s] symbolically linking /home/abinu/nidar_ws/build/nidar_gcs/package.xml -> /home/abinu/nidar_ws/install/nidar_gcs/share/nidar_gcs
+[6.645s] Invoked command in '/home/abinu/nidar_ws/build/nidar_gcs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/build/nidar_gcs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abinu/nidar_ws/install/nidar_gcs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abinu/nidar_ws/build/nidar_gcs/build --no-deps symlink_data

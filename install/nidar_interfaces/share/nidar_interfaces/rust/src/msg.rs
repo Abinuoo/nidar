@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_rs/nidar_interfaces/rust/src/msg.rs

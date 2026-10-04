@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/nidar_world/ament_cmake_core/nidar_worldConfig.cmake

@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-189bdeadfbc855938f28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "nidar_interfaces__py",
+					"jsonFile" : "directory-nidar_interfaces__py-de80fdd14e5872278337.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/abinu/nidar_ws/build/nidar_interfaces/nidar_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "nidar_interfaces__rs",
+					"jsonFile" : "directory-nidar_interfaces__rs-35007230760132731546.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/abinu/nidar_ws/build/nidar_interfaces/nidar_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "nidar_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_nidar_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_nidar_interfaces_egg-3bbb3fd569f47dc3bbf2.json",
+					"name" : "ament_cmake_python_build_nidar_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_nidar_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_nidar_interfaces-df5d71f9f17a121d0c2f.json",
+					"name" : "ament_cmake_python_symlink_nidar_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces-a58f6b3e94600f37bfc6.json",
+					"name" : "nidar_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__cpp-394af5b70da71cac0562.json",
+					"name" : "nidar_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nidar_interfaces__py::@4b2ba7e9085b19359b02",
+					"jsonFile" : "target-nidar_interfaces__py-8ecb138e44cedd5295dd.json",
+					"name" : "nidar_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_generator_c-d69cfb67a8a02538da2b.json",
+					"name" : "nidar_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_generator_py-f2896dbe6a0fcdea3eac.json",
+					"name" : "nidar_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_generator_type_description-b54bbf6ea52a86bcf39d.json",
+					"name" : "nidar_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_typesupport_c-659420689bb251a1a278.json",
+					"name" : "nidar_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_typesupport_cpp-1192b6435884e8f273e0.json",
+					"name" : "nidar_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_typesupport_fastrtps_c-f7b51ef74369263116f5.json",
+					"name" : "nidar_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_typesupport_fastrtps_cpp-5097ec992d16a0647f49.json",
+					"name" : "nidar_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_typesupport_introspection_c-eab5ab08d0eff4abf432.json",
+					"name" : "nidar_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces__rosidl_typesupport_introspection_cpp-c801a1f68991af66d5a1.json",
+					"name" : "nidar_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nidar_interfaces__rs::@3cd5923aecabcf371202",
+					"jsonFile" : "target-nidar_interfaces__rs-48eb6a3d355bf6c98fd6.json",
+					"name" : "nidar_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces_s__rosidl_typesupport_c-1c3d03c86b0b6bae8c5b.json",
+					"name" : "nidar_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces_s__rosidl_typesupport_fastrtps_c-c4058cccfcca6086591f.json",
+					"name" : "nidar_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces_s__rosidl_typesupport_introspection_c-a63b54cc79a1f8c26bde.json",
+					"name" : "nidar_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nidar_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nidar_interfaces_uninstall-ed84c3638ebed78750cc.json",
+					"name" : "nidar_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ae891538a040157b612d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abinu/nidar_ws/build/nidar_interfaces",
+		"source" : "/home/abinu/nidar_ws/src/nidar_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

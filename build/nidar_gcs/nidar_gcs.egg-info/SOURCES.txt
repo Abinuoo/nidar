@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+nidar_gcs/__init__.py
+nidar_gcs.egg-info/PKG-INFO
+nidar_gcs.egg-info/SOURCES.txt
+nidar_gcs.egg-info/dependency_links.txt
+nidar_gcs.egg-info/requires.txt
+nidar_gcs.egg-info/top_level.txt
+nidar_gcs.egg-info/zip-safe
+resource/nidar_gcs

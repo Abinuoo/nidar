@@ -1,0 +1,28 @@
+mission:
+  name: "NIDAR RescueSwarm"
+  max_time_sec: 1800
+
+vehicles:
+  scout:
+    id: "drone1"
+    role: "scout"
+
+  delivery:
+    id: "drone2"
+    role: "delivery"
+
+search:
+  max_survivors: 10
+
+payload:
+  mass_kg: 0.2
+  length_m: 0.20
+  width_m: 0.10
+  height_m: 0.05
+
+safety:
+  geofence_enabled: true
+  communication_failsafe_enabled: true
+  low_battery_failsafe_enabled: true
+  mission_abort_enabled: true
+  rtl_enabled: true

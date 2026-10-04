@@ -1,0 +1,12 @@
+msg/DeliveryResult.idl
+msg/DeliveryResult.msg
+msg/DeliveryTask.idl
+msg/DeliveryTask.msg
+msg/DroneStatus.idl
+msg/DroneStatus.msg
+msg/MissionScore.idl
+msg/MissionScore.msg
+msg/MissionStatus.idl
+msg/MissionStatus.msg
+msg/SurvivorDetection.idl
+msg/SurvivorDetection.msg

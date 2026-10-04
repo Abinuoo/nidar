@@ -1,0 +1,9 @@
+source;share/nidar_geotag/hook/pythonpath.ps1
+source;share/nidar_geotag/hook/pythonpath.dsv
+source;share/nidar_geotag/hook/pythonpath.sh
+source;share/nidar_geotag/hook/ament_prefix_path.ps1
+source;share/nidar_geotag/hook/ament_prefix_path.dsv
+source;share/nidar_geotag/hook/ament_prefix_path.sh
+source;../../build/nidar_geotag/share/nidar_geotag/hook/pythonpath_develop.ps1
+source;../../build/nidar_geotag/share/nidar_geotag/hook/pythonpath_develop.dsv
+source;../../build/nidar_geotag/share/nidar_geotag/hook/pythonpath_develop.sh

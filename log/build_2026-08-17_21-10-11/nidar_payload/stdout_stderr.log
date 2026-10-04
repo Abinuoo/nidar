@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating nidar_payload.egg-info
+writing nidar_payload.egg-info/PKG-INFO
+writing dependency_links to nidar_payload.egg-info/dependency_links.txt
+writing requirements to nidar_payload.egg-info/requires.txt
+writing top-level names to nidar_payload.egg-info/top_level.txt
+writing manifest file 'nidar_payload.egg-info/SOURCES.txt'
+reading manifest file 'nidar_payload.egg-info/SOURCES.txt'
+writing manifest file 'nidar_payload.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abinu/nidar_ws/install/nidar_payload/lib/python3.12/site-packages/nidar-payload.egg-link (link to .)
+
+Installed /home/abinu/nidar_ws/build/nidar_payload
+running symlink_data
+creating /home/abinu/nidar_ws/install/nidar_payload/share/ament_index
+creating /home/abinu/nidar_ws/install/nidar_payload/share/ament_index/resource_index
+creating /home/abinu/nidar_ws/install/nidar_payload/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_payload/resource/nidar_payload -> /home/abinu/nidar_ws/install/nidar_payload/share/ament_index/resource_index/packages
+symbolically linking /home/abinu/nidar_ws/build/nidar_payload/package.xml -> /home/abinu/nidar_ws/install/nidar_payload/share/nidar_payload

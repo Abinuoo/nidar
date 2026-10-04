@@ -1,0 +1,1331 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (-) JobUnselected: {'identifier': 'ardupilot_dds_tests'}
+[0.000354] (-) JobUnselected: {'identifier': 'ardupilot_gazebo'}
+[0.000387] (-) JobUnselected: {'identifier': 'ardupilot_msgs'}
+[0.000428] (-) JobUnselected: {'identifier': 'ardupilot_sitl'}
+[0.000470] (-) JobUnselected: {'identifier': 'nidar_bringup'}
+[0.000494] (-) JobUnselected: {'identifier': 'nidar_delivery'}
+[0.000517] (-) JobUnselected: {'identifier': 'nidar_delivery_description'}
+[0.000541] (-) JobUnselected: {'identifier': 'nidar_detection'}
+[0.000564] (-) JobUnselected: {'identifier': 'nidar_gcs'}
+[0.000587] (-) JobUnselected: {'identifier': 'nidar_geotag'}
+[0.000610] (-) JobUnselected: {'identifier': 'nidar_interfaces'}
+[0.000634] (-) JobUnselected: {'identifier': 'nidar_mission'}
+[0.000656] (-) JobUnselected: {'identifier': 'nidar_payload'}
+[0.000678] (-) JobUnselected: {'identifier': 'nidar_safety'}
+[0.000701] (-) JobUnselected: {'identifier': 'nidar_scoring'}
+[0.000723] (-) JobUnselected: {'identifier': 'nidar_scout'}
+[0.000745] (-) JobUnselected: {'identifier': 'nidar_scout_description'}
+[0.000768] (-) JobUnselected: {'identifier': 'nidar_world'}
+[0.000796] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.001801] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.017929] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.018646] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/abinu/nidar_ws/src/micro-ros-agent/micro_ros_agent', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/abinu/nidar_ws/install/micro_ros_agent'], 'cwd': '/home/abinu/nidar_ws/build/micro_ros_agent', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/lib/ardupilot_gazebo/:/home/abinu/ardupilot_gazebo/build:', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3162-1-abinu-Aspire-A515-58GM_TIME98906', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds:/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models:/home/abinu/ardupilot_gazebo/models:/home/abinu/ardupilot_gazebo/worlds:/home/abinu/multi_drone/models:/home/abinu/multi_drone/worlds:', 'LANGUAGE': 'en_IN:en', 'USER': 'abinu', 'ROS_PACKAGE_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/share', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/lib:/home/abinu/nidar_ws/install/ardupilot_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abinu', 'OLDPWD': '/home/abinu/nidar_ws/src/micro-ros-agent', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '2406', 'SYSTEMD_EXEC_PID': '3162', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'NIDAR_JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5437', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/abinu/nidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abinu', 'JOURNAL_STREAM': '8:16765', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/abinu/nidar_ws/install/nidar_interfaces/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abinu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/abinu/nidar_ws/install/ardupilot_sitl/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/abinu/nidar_ws/src/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/abinu/venv-ardupilot/bin:/home/abinu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts:/home/abinu/nidar_ws/src/ardupilot/Tools/autotest:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts', 'SESSION_MANAGER': 'local/abinu-Aspire-A515-58GM:@/tmp/.ICE-unix/3129,unix/abinu-Aspire-A515-58GM:/tmp/.ICE-unix/3129', 'INVOCATION_ID': '0cc4fc7edd6241cc80a77d710a3fe986', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/nidar_bringup:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2ad4a3fc-cff0-46e7-8f8a-443dc3d1f5eb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'GZ_VERSION': 'harmonic', 'VIRTUAL_ENV': '/home/abinu/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abinu/nidar_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SDF_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds:/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abinu/nidar_ws/build/nidar_scout:/home/abinu/nidar_ws/install/nidar_scout/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_scoring:/home/abinu/nidar_ws/install/nidar_scoring/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_safety:/home/abinu/nidar_ws/install/nidar_safety/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_payload:/home/abinu/nidar_ws/install/nidar_payload/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_mission:/home/abinu/nidar_ws/install/nidar_mission/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_delivery:/home/abinu/nidar_ws/install/nidar_delivery/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/nidar_interfaces/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_geotag:/home/abinu/nidar_ws/install/nidar_geotag/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_gcs:/home/abinu/nidar_ws/install/nidar_gcs/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_detection:/home/abinu/nidar_ws/install/nidar_detection/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_bringup:/home/abinu/nidar_ws/install/nidar_bringup/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/ardupilot_sitl/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/ardupilot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_bringup:/opt/ros/jazzy:/home/abinu/nidar_ws/install/nidar_interfaces:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099470] (-) TimerEvent: {}
+[0.199998] (-) TimerEvent: {}
+[0.256990] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300161] (-) TimerEvent: {}
+[0.307916] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400285] (-) TimerEvent: {}
+[0.455183] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.470253] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.471110] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.472026] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.500445] (-) TimerEvent: {}
+[0.600838] (-) TimerEvent: {}
+[0.632067] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.669766] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701009] (-) TimerEvent: {}
+[0.801504] (-) TimerEvent: {}
+[0.820262] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.834601] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.835100] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.836101] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.901641] (-) TimerEvent: {}
+[0.913362] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[0.918877] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.919573] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.919889] (micro_ros_agent) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.920078] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[0.920465] (micro_ros_agent) StderrLine: {'line': b'    AMENT_CMAKE_SYMLINK_INSTALL\n'}
+[0.920572] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[0.920662] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[0.921698] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/abinu/nidar_ws/build/micro_ros_agent\n'}
+[0.930659] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.932761] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.933003] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abinu/nidar_ws/build/micro_ros_agent', '--', '-j12', '-l12'], 'cwd': '/home/abinu/nidar_ws/build/micro_ros_agent', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/lib/ardupilot_gazebo/:/home/abinu/ardupilot_gazebo/build:', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3162-1-abinu-Aspire-A515-58GM_TIME98906', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds:/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models:/home/abinu/ardupilot_gazebo/models:/home/abinu/ardupilot_gazebo/worlds:/home/abinu/multi_drone/models:/home/abinu/multi_drone/worlds:', 'LANGUAGE': 'en_IN:en', 'USER': 'abinu', 'ROS_PACKAGE_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/share', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/lib:/home/abinu/nidar_ws/install/ardupilot_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abinu', 'OLDPWD': '/home/abinu/nidar_ws/src/micro-ros-agent', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '2406', 'SYSTEMD_EXEC_PID': '3162', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'NIDAR_JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5437', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/abinu/nidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abinu', 'JOURNAL_STREAM': '8:16765', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/abinu/nidar_ws/install/nidar_interfaces/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abinu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/abinu/nidar_ws/install/ardupilot_sitl/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/abinu/nidar_ws/src/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/abinu/venv-ardupilot/bin:/home/abinu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts:/home/abinu/nidar_ws/src/ardupilot/Tools/autotest:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts', 'SESSION_MANAGER': 'local/abinu-Aspire-A515-58GM:@/tmp/.ICE-unix/3129,unix/abinu-Aspire-A515-58GM:/tmp/.ICE-unix/3129', 'INVOCATION_ID': '0cc4fc7edd6241cc80a77d710a3fe986', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/nidar_bringup:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2ad4a3fc-cff0-46e7-8f8a-443dc3d1f5eb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'GZ_VERSION': 'harmonic', 'VIRTUAL_ENV': '/home/abinu/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abinu/nidar_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SDF_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds:/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abinu/nidar_ws/build/nidar_scout:/home/abinu/nidar_ws/install/nidar_scout/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_scoring:/home/abinu/nidar_ws/install/nidar_scoring/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_safety:/home/abinu/nidar_ws/install/nidar_safety/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_payload:/home/abinu/nidar_ws/install/nidar_payload/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_mission:/home/abinu/nidar_ws/install/nidar_mission/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_delivery:/home/abinu/nidar_ws/install/nidar_delivery/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/nidar_interfaces/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_geotag:/home/abinu/nidar_ws/install/nidar_geotag/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_gcs:/home/abinu/nidar_ws/install/nidar_gcs/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_detection:/home/abinu/nidar_ws/install/nidar_detection/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_bringup:/home/abinu/nidar_ws/install/nidar_bringup/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/ardupilot_sitl/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/ardupilot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_bringup:/opt/ros/jazzy:/home/abinu/nidar_ws/install/nidar_interfaces:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.002281] (-) TimerEvent: {}
+[1.022498] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[1.073476] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[1.102479] (-) TimerEvent: {}
+[1.111792] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[1.202629] (-) TimerEvent: {}
+[1.303147] (-) TimerEvent: {}
+[1.403755] (-) TimerEvent: {}
+[1.504327] (-) TimerEvent: {}
+[1.604842] (-) TimerEvent: {}
+[1.705319] (-) TimerEvent: {}
+[1.806061] (-) TimerEvent: {}
+[1.906543] (-) TimerEvent: {}
+[2.006935] (-) TimerEvent: {}
+[2.107346] (-) TimerEvent: {}
+[2.207772] (-) TimerEvent: {}
+[2.308407] (-) TimerEvent: {}
+[2.408871] (-) TimerEvent: {}
+[2.509547] (-) TimerEvent: {}
+[2.610013] (-) TimerEvent: {}
+[2.710492] (-) TimerEvent: {}
+[2.811045] (-) TimerEvent: {}
+[2.911612] (-) TimerEvent: {}
+[3.012277] (-) TimerEvent: {}
+[3.112912] (-) TimerEvent: {}
+[3.213511] (-) TimerEvent: {}
+[3.314233] (-) TimerEvent: {}
+[3.414704] (-) TimerEvent: {}
+[3.515275] (-) TimerEvent: {}
+[3.615933] (-) TimerEvent: {}
+[3.716675] (-) TimerEvent: {}
+[3.817222] (-) TimerEvent: {}
+[3.917776] (-) TimerEvent: {}
+[4.018330] (-) TimerEvent: {}
+[4.118974] (-) TimerEvent: {}
+[4.219579] (-) TimerEvent: {}
+[4.320238] (-) TimerEvent: {}
+[4.420714] (-) TimerEvent: {}
+[4.521269] (-) TimerEvent: {}
+[4.621828] (-) TimerEvent: {}
+[4.722498] (-) TimerEvent: {}
+[4.823020] (-) TimerEvent: {}
+[4.923578] (-) TimerEvent: {}
+[5.024322] (-) TimerEvent: {}
+[5.124935] (-) TimerEvent: {}
+[5.225438] (-) TimerEvent: {}
+[5.326413] (-) TimerEvent: {}
+[5.427310] (-) TimerEvent: {}
+[5.527937] (-) TimerEvent: {}
+[5.628455] (-) TimerEvent: {}
+[5.729080] (-) TimerEvent: {}
+[5.829714] (-) TimerEvent: {}
+[5.930539] (-) TimerEvent: {}
+[5.937194] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at 7362281 Release v2.4.3\n'}
+[6.018150] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[6.030663] (-) TimerEvent: {}
+[6.057359] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[6.092876] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[6.105826] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/abinu/nidar_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[6.130870] (-) TimerEvent: {}
+[6.207385] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[6.231102] (-) TimerEvent: {}
+[6.239260] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.331225] (-) TimerEvent: {}
+[6.376423] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.396322] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[6.396817] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.397655] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.431396] (-) TimerEvent: {}
+[6.506450] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.531541] (-) TimerEvent: {}
+[6.542253] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.631746] (-) TimerEvent: {}
+[6.702686] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.717258] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[6.717606] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.718381] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.731984] (-) TimerEvent: {}
+[6.776190] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[6.780201] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.781033] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[6.811003] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[6.832156] (-) TimerEvent: {}
+[6.870209] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'spdlog'\x1b[0m\n"}
+[6.909152] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'spdlog'\x1b[0m\n"}
+[6.932297] (-) TimerEvent: {}
+[6.946461] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'spdlog'...\n"}
+[7.032545] (-) TimerEvent: {}
+[7.133180] (-) TimerEvent: {}
+[7.234133] (-) TimerEvent: {}
+[7.335017] (-) TimerEvent: {}
+[7.435718] (-) TimerEvent: {}
+[7.536472] (-) TimerEvent: {}
+[7.637287] (-) TimerEvent: {}
+[7.738185] (-) TimerEvent: {}
+[7.838768] (-) TimerEvent: {}
+[7.939198] (-) TimerEvent: {}
+[8.039647] (-) TimerEvent: {}
+[8.140228] (-) TimerEvent: {}
+[8.240808] (-) TimerEvent: {}
+[8.341231] (-) TimerEvent: {}
+[8.441706] (-) TimerEvent: {}
+[8.542510] (-) TimerEvent: {}
+[8.643089] (-) TimerEvent: {}
+[8.743487] (-) TimerEvent: {}
+[8.844186] (-) TimerEvent: {}
+[8.944762] (-) TimerEvent: {}
+[9.045425] (-) TimerEvent: {}
+[9.146190] (-) TimerEvent: {}
+[9.247009] (-) TimerEvent: {}
+[9.347532] (-) TimerEvent: {}
+[9.448284] (-) TimerEvent: {}
+[9.548998] (-) TimerEvent: {}
+[9.649592] (-) TimerEvent: {}
+[9.750115] (-) TimerEvent: {}
+[9.850921] (-) TimerEvent: {}
+[9.951270] (-) TimerEvent: {}
+[10.051654] (-) TimerEvent: {}
+[10.152305] (-) TimerEvent: {}
+[10.252943] (-) TimerEvent: {}
+[10.353565] (-) TimerEvent: {}
+[10.454185] (-) TimerEvent: {}
+[10.554646] (-) TimerEvent: {}
+[10.655193] (-) TimerEvent: {}
+[10.755729] (-) TimerEvent: {}
+[10.856070] (-) TimerEvent: {}
+[10.956540] (-) TimerEvent: {}
+[11.057213] (-) TimerEvent: {}
+[11.157946] (-) TimerEvent: {}
+[11.258643] (-) TimerEvent: {}
+[11.359192] (-) TimerEvent: {}
+[11.459794] (-) TimerEvent: {}
+[11.560367] (-) TimerEvent: {}
+[11.660916] (-) TimerEvent: {}
+[11.761553] (-) TimerEvent: {}
+[11.862178] (-) TimerEvent: {}
+[11.962793] (-) TimerEvent: {}
+[12.063243] (-) TimerEvent: {}
+[12.163674] (-) TimerEvent: {}
+[12.264313] (-) TimerEvent: {}
+[12.365252] (-) TimerEvent: {}
+[12.465876] (-) TimerEvent: {}
+[12.566371] (-) TimerEvent: {}
+[12.666911] (-) TimerEvent: {}
+[12.767427] (-) TimerEvent: {}
+[12.868010] (-) TimerEvent: {}
+[12.968569] (-) TimerEvent: {}
+[13.069052] (-) TimerEvent: {}
+[13.169443] (-) TimerEvent: {}
+[13.270102] (-) TimerEvent: {}
+[13.370675] (-) TimerEvent: {}
+[13.471353] (-) TimerEvent: {}
+[13.571854] (-) TimerEvent: {}
+[13.672280] (-) TimerEvent: {}
+[13.772852] (-) TimerEvent: {}
+[13.873337] (-) TimerEvent: {}
+[13.973734] (-) TimerEvent: {}
+[14.074325] (-) TimerEvent: {}
+[14.174811] (-) TimerEvent: {}
+[14.275236] (-) TimerEvent: {}
+[14.375673] (-) TimerEvent: {}
+[14.476281] (-) TimerEvent: {}
+[14.576652] (-) TimerEvent: {}
+[14.677240] (-) TimerEvent: {}
+[14.777879] (-) TimerEvent: {}
+[14.878430] (-) TimerEvent: {}
+[14.978988] (-) TimerEvent: {}
+[15.079615] (-) TimerEvent: {}
+[15.180432] (-) TimerEvent: {}
+[15.280969] (-) TimerEvent: {}
+[15.381460] (-) TimerEvent: {}
+[15.482202] (-) TimerEvent: {}
+[15.582743] (-) TimerEvent: {}
+[15.683268] (-) TimerEvent: {}
+[15.783944] (-) TimerEvent: {}
+[15.884561] (-) TimerEvent: {}
+[15.985175] (-) TimerEvent: {}
+[16.085764] (-) TimerEvent: {}
+[16.186521] (-) TimerEvent: {}
+[16.287132] (-) TimerEvent: {}
+[16.387639] (-) TimerEvent: {}
+[16.488170] (-) TimerEvent: {}
+[16.588836] (-) TimerEvent: {}
+[16.689366] (-) TimerEvent: {}
+[16.789779] (-) TimerEvent: {}
+[16.890317] (-) TimerEvent: {}
+[16.991053] (-) TimerEvent: {}
+[17.091540] (-) TimerEvent: {}
+[17.192080] (-) TimerEvent: {}
+[17.292561] (-) TimerEvent: {}
+[17.392979] (-) TimerEvent: {}
+[17.493396] (-) TimerEvent: {}
+[17.593844] (-) TimerEvent: {}
+[17.694294] (-) TimerEvent: {}
+[17.794775] (-) TimerEvent: {}
+[17.895248] (-) TimerEvent: {}
+[17.995688] (-) TimerEvent: {}
+[18.096220] (-) TimerEvent: {}
+[18.196587] (-) TimerEvent: {}
+[18.297088] (-) TimerEvent: {}
+[18.397505] (-) TimerEvent: {}
+[18.498273] (-) TimerEvent: {}
+[18.598880] (-) TimerEvent: {}
+[18.699297] (-) TimerEvent: {}
+[18.799747] (-) TimerEvent: {}
+[18.900210] (-) TimerEvent: {}
+[19.000704] (-) TimerEvent: {}
+[19.101178] (-) TimerEvent: {}
+[19.201502] (-) TimerEvent: {}
+[19.301939] (-) TimerEvent: {}
+[19.402358] (-) TimerEvent: {}
+[19.502991] (-) TimerEvent: {}
+[19.603472] (-) TimerEvent: {}
+[19.703983] (-) TimerEvent: {}
+[19.804602] (-) TimerEvent: {}
+[19.905193] (-) TimerEvent: {}
+[20.005828] (-) TimerEvent: {}
+[20.106332] (-) TimerEvent: {}
+[20.206753] (-) TimerEvent: {}
+[20.307229] (-) TimerEvent: {}
+[20.407662] (-) TimerEvent: {}
+[20.508134] (-) TimerEvent: {}
+[20.608464] (-) TimerEvent: {}
+[20.708895] (-) TimerEvent: {}
+[20.730560] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at eb322062 Bump version to 1.9.2\n'}
+[20.807056] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'spdlog'\x1b[0m\n"}
+[20.809032] (-) TimerEvent: {}
+[20.846528] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'spdlog'\x1b[0m\n"}
+[20.886113] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'spdlog'\x1b[0m\n"}
+[20.899029] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake\n'}
+[20.909348] (-) TimerEvent: {}
+[20.988336] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[21.009470] (-) TimerEvent: {}
+[21.020242] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[21.109638] (-) TimerEvent: {}
+[21.201307] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[21.209882] (-) TimerEvent: {}
+[21.215447] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[21.215830] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[21.216659] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[21.217252] (micro_ros_agent) StdoutLine: {'line': b'-- Build spdlog: 1.9.2\n'}
+[21.222690] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[21.310128] (-) TimerEvent: {}
+[21.410553] (-) TimerEvent: {}
+[21.429501] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[21.430886] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.431229] (micro_ros_agent) StdoutLine: {'line': b'-- Build type: Release\n'}
+[21.432205] (micro_ros_agent) StdoutLine: {'line': b'-- Generating example(s)\n'}
+[21.432903] (micro_ros_agent) StdoutLine: {'line': b'-- Generating install\n'}
+[21.449947] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[21.460633] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[21.461705] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build\n'}
+[21.492742] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'spdlog'\x1b[0m\n"}
+[21.510774] (-) TimerEvent: {}
+[21.557182] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o\x1b[0m\n'}
+[21.557606] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o\x1b[0m\n'}
+[21.557796] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o\x1b[0m\n'}
+[21.558149] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o\x1b[0m\n'}
+[21.558897] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o\x1b[0m\n'}
+[21.559378] (micro_ros_agent) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o\x1b[0m\n'}
+[21.562714] (micro_ros_agent) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o\x1b[0m\n'}
+[21.610923] (-) TimerEvent: {}
+[21.711345] (-) TimerEvent: {}
+[21.811728] (-) TimerEvent: {}
+[21.912325] (-) TimerEvent: {}
+[22.012812] (-) TimerEvent: {}
+[22.113196] (-) TimerEvent: {}
+[22.213550] (-) TimerEvent: {}
+[22.313911] (-) TimerEvent: {}
+[22.414292] (-) TimerEvent: {}
+[22.514649] (-) TimerEvent: {}
+[22.615012] (-) TimerEvent: {}
+[22.715362] (-) TimerEvent: {}
+[22.815709] (-) TimerEvent: {}
+[22.916046] (-) TimerEvent: {}
+[23.016395] (-) TimerEvent: {}
+[23.116781] (-) TimerEvent: {}
+[23.217188] (-) TimerEvent: {}
+[23.317569] (-) TimerEvent: {}
+[23.417935] (-) TimerEvent: {}
+[23.518355] (-) TimerEvent: {}
+[23.618741] (-) TimerEvent: {}
+[23.719120] (-) TimerEvent: {}
+[23.819536] (-) TimerEvent: {}
+[23.919946] (-) TimerEvent: {}
+[24.020355] (-) TimerEvent: {}
+[24.120746] (-) TimerEvent: {}
+[24.221129] (-) TimerEvent: {}
+[24.321505] (-) TimerEvent: {}
+[24.421880] (-) TimerEvent: {}
+[24.522255] (-) TimerEvent: {}
+[24.622629] (-) TimerEvent: {}
+[24.723144] (-) TimerEvent: {}
+[24.823517] (-) TimerEvent: {}
+[24.923858] (-) TimerEvent: {}
+[25.024257] (-) TimerEvent: {}
+[25.124622] (-) TimerEvent: {}
+[25.225107] (-) TimerEvent: {}
+[25.325481] (-) TimerEvent: {}
+[25.425925] (-) TimerEvent: {}
+[25.526295] (-) TimerEvent: {}
+[25.626628] (-) TimerEvent: {}
+[25.727092] (-) TimerEvent: {}
+[25.827436] (-) TimerEvent: {}
+[25.927881] (-) TimerEvent: {}
+[26.028237] (-) TimerEvent: {}
+[26.128568] (-) TimerEvent: {}
+[26.228902] (-) TimerEvent: {}
+[26.329250] (-) TimerEvent: {}
+[26.429718] (-) TimerEvent: {}
+[26.530146] (-) TimerEvent: {}
+[26.630496] (-) TimerEvent: {}
+[26.730926] (-) TimerEvent: {}
+[26.831376] (-) TimerEvent: {}
+[26.931859] (-) TimerEvent: {}
+[27.032188] (-) TimerEvent: {}
+[27.132536] (-) TimerEvent: {}
+[27.233122] (-) TimerEvent: {}
+[27.333423] (-) TimerEvent: {}
+[27.433808] (-) TimerEvent: {}
+[27.534129] (-) TimerEvent: {}
+[27.634442] (-) TimerEvent: {}
+[27.734823] (-) TimerEvent: {}
+[27.835116] (-) TimerEvent: {}
+[27.935404] (-) TimerEvent: {}
+[28.035779] (-) TimerEvent: {}
+[28.136087] (-) TimerEvent: {}
+[28.236421] (-) TimerEvent: {}
+[28.336744] (-) TimerEvent: {}
+[28.437118] (-) TimerEvent: {}
+[28.537462] (-) TimerEvent: {}
+[28.637792] (-) TimerEvent: {}
+[28.738158] (-) TimerEvent: {}
+[28.838633] (-) TimerEvent: {}
+[28.938980] (-) TimerEvent: {}
+[29.039309] (-) TimerEvent: {}
+[29.139729] (-) TimerEvent: {}
+[29.240036] (-) TimerEvent: {}
+[29.340383] (-) TimerEvent: {}
+[29.440710] (-) TimerEvent: {}
+[29.541130] (-) TimerEvent: {}
+[29.641472] (-) TimerEvent: {}
+[29.741878] (-) TimerEvent: {}
+[29.842259] (-) TimerEvent: {}
+[29.942641] (-) TimerEvent: {}
+[30.043313] (-) TimerEvent: {}
+[30.057143] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library libspdlog.a\x1b[0m\n'}
+[30.123165] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] Built target spdlog\n'}
+[30.143439] (-) TimerEvent: {}
+[30.153877] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o\x1b[0m\n'}
+[30.243654] (-) TimerEvent: {}
+[30.344036] (-) TimerEvent: {}
+[30.444337] (-) TimerEvent: {}
+[30.544723] (-) TimerEvent: {}
+[30.645159] (-) TimerEvent: {}
+[30.745444] (-) TimerEvent: {}
+[30.845845] (-) TimerEvent: {}
+[30.946245] (-) TimerEvent: {}
+[31.046562] (-) TimerEvent: {}
+[31.146946] (-) TimerEvent: {}
+[31.247231] (-) TimerEvent: {}
+[31.347552] (-) TimerEvent: {}
+[31.447927] (-) TimerEvent: {}
+[31.548311] (-) TimerEvent: {}
+[31.648694] (-) TimerEvent: {}
+[31.749012] (-) TimerEvent: {}
+[31.849317] (-) TimerEvent: {}
+[31.949634] (-) TimerEvent: {}
+[32.050036] (-) TimerEvent: {}
+[32.150323] (-) TimerEvent: {}
+[32.250769] (-) TimerEvent: {}
+[32.351137] (-) TimerEvent: {}
+[32.451420] (-) TimerEvent: {}
+[32.551853] (-) TimerEvent: {}
+[32.652141] (-) TimerEvent: {}
+[32.752410] (-) TimerEvent: {}
+[32.852731] (-) TimerEvent: {}
+[32.953065] (-) TimerEvent: {}
+[33.053340] (-) TimerEvent: {}
+[33.153841] (-) TimerEvent: {}
+[33.254155] (-) TimerEvent: {}
+[33.354505] (-) TimerEvent: {}
+[33.454877] (-) TimerEvent: {}
+[33.555273] (-) TimerEvent: {}
+[33.655643] (-) TimerEvent: {}
+[33.756071] (-) TimerEvent: {}
+[33.856350] (-) TimerEvent: {}
+[33.956667] (-) TimerEvent: {}
+[34.057064] (-) TimerEvent: {}
+[34.157422] (-) TimerEvent: {}
+[34.257803] (-) TimerEvent: {}
+[34.358215] (-) TimerEvent: {}
+[34.458486] (-) TimerEvent: {}
+[34.558854] (-) TimerEvent: {}
+[34.659252] (-) TimerEvent: {}
+[34.759620] (-) TimerEvent: {}
+[34.860021] (-) TimerEvent: {}
+[34.960423] (-) TimerEvent: {}
+[35.060844] (-) TimerEvent: {}
+[35.161120] (-) TimerEvent: {}
+[35.261403] (-) TimerEvent: {}
+[35.361759] (-) TimerEvent: {}
+[35.425795] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example\x1b[0m\n'}
+[35.461879] (-) TimerEvent: {}
+[35.545925] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target example\n'}
+[35.562106] (-) TimerEvent: {}
+[35.582789] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'spdlog'\x1b[0m\n"}
+[35.656150] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] Built target spdlog\n'}
+[35.662197] (-) TimerEvent: {}
+[35.692305] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target example\n'}
+[35.715441] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[35.727846] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[35.728464] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include\n'}
+[35.728583] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog\n'}
+[35.728726] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h\n'}
+[35.728846] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h\n'}
+[35.728931] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h\n'}
+[35.729037] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h\n'}
+[35.729308] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h\n'}
+[35.729511] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h\n'}
+[35.729601] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h\n'}
+[35.729680] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h\n'}
+[35.729763] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h\n'}
+[35.729840] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h\n'}
+[35.729912] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg\n'}
+[35.730089] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h\n'}
+[35.730179] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h\n'}
+[35.730256] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h\n'}
+[35.730330] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h\n'}
+[35.730404] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks\n'}
+[35.730476] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h\n'}
+[35.730549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[35.730634] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h\n'}
+[35.730705] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h\n'}
+[35.730777] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h\n'}
+[35.730890] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h\n'}
+[35.730983] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h\n'}
+[35.731058] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h\n'}
+[35.731131] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h\n'}
+[35.731205] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[35.731280] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h\n'}
+[35.731354] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[35.731461] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h\n'}
+[35.731556] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h\n'}
+[35.731645] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h\n'}
+[35.731723] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h\n'}
+[35.731798] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h\n'}
+[35.731873] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[35.731952] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[35.732034] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[35.732108] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h\n'}
+[35.732181] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h\n'}
+[35.732292] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[35.732367] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h\n'}
+[35.732444] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h\n'}
+[35.732519] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[35.732594] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h\n'}
+[35.732668] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h\n'}
+[35.732742] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h\n'}
+[35.732817] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h\n'}
+[35.732896] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[35.732996] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h\n'}
+[35.733076] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h\n'}
+[35.733152] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h\n'}
+[35.733225] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt\n'}
+[35.733357] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h\n'}
+[35.733440] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h\n'}
+[35.733515] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h\n'}
+[35.733587] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h\n'}
+[35.733663] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h\n'}
+[35.733772] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h\n'}
+[35.733847] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h\n'}
+[35.733945] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h\n'}
+[35.734037] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details\n'}
+[35.734105] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h\n'}
+[35.734173] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h\n'}
+[35.734245] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h\n'}
+[35.734315] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h\n'}
+[35.734384] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[35.734452] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h\n'}
+[35.734523] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h\n'}
+[35.734595] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h\n'}
+[35.734668] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h\n'}
+[35.734740] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h\n'}
+[35.734813] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h\n'}
+[35.734885] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h\n'}
+[35.735014] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h\n'}
+[35.735160] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h\n'}
+[35.735263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h\n'}
+[35.735339] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h\n'}
+[35.735414] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h\n'}
+[35.735488] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h\n'}
+[35.735564] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h\n'}
+[35.735660] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h\n'}
+[35.735731] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h\n'}
+[35.735800] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h\n'}
+[35.735870] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h\n'}
+[35.735936] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h\n'}
+[35.736014] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h\n'}
+[35.736083] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h\n'}
+[35.736157] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a\n'}
+[35.737000] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/\n'}
+[35.737105] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h\n'}
+[35.737205] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h\n'}
+[35.737294] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h\n'}
+[35.737391] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h\n'}
+[35.737515] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h\n'}
+[35.737610] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h\n'}
+[35.737715] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h\n'}
+[35.737807] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h\n'}
+[35.737978] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h\n'}
+[35.738139] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h\n'}
+[35.738228] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h\n'}
+[35.738325] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h\n'}
+[35.738415] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h\n'}
+[35.738573] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc\n'}
+[35.738876] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[35.739101] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[35.739235] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[35.739322] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[35.762321] (-) TimerEvent: {}
+[35.767624] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'spdlog'\x1b[0m\n"}
+[35.813234] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target spdlog\n'}
+[35.845221] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[35.862464] (-) TimerEvent: {}
+[35.885289] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[35.919355] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[35.954638] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[35.962684] (-) TimerEvent: {}
+[35.991902] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[36.004535] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[36.013541] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[36.045968] (micro_ros_agent) StdoutLine: {'line': b'-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[36.062918] (-) TimerEvent: {}
+[36.140755] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[36.146745] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[36.163161] (-) TimerEvent: {}
+[36.263505] (-) TimerEvent: {}
+[36.308180] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[36.309817] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[36.317078] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.3s)\n'}
+[36.329522] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[36.330246] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/abinu/nidar_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[36.357732] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[36.363650] (-) TimerEvent: {}
+[36.431500] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[36.432319] (micro_ros_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[36.432574] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[36.432750] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[36.432925] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[36.433126] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[36.433290] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[36.433446] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[36.433579] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[36.434928] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[36.442678] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[36.448286] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[36.465093] (-) TimerEvent: {}
+[36.565597] (-) TimerEvent: {}
+[36.665988] (-) TimerEvent: {}
+[36.768260] (-) TimerEvent: {}
+[36.868660] (-) TimerEvent: {}
+[36.969201] (-) TimerEvent: {}
+[37.070641] (-) TimerEvent: {}
+[37.173244] (-) TimerEvent: {}
+[37.273739] (-) TimerEvent: {}
+[37.376076] (-) TimerEvent: {}
+[37.476582] (-) TimerEvent: {}
+[37.577087] (-) TimerEvent: {}
+[37.677579] (-) TimerEvent: {}
+[37.779083] (-) TimerEvent: {}
+[37.879801] (-) TimerEvent: {}
+[37.982085] (-) TimerEvent: {}
+[38.082585] (-) TimerEvent: {}
+[38.183078] (-) TimerEvent: {}
+[38.283567] (-) TimerEvent: {}
+[38.385127] (-) TimerEvent: {}
+[38.485634] (-) TimerEvent: {}
+[38.586100] (-) TimerEvent: {}
+[38.633159] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[38.688094] (-) TimerEvent: {}
+[38.696010] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[38.788230] (-) TimerEvent: {}
+[38.836665] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[38.890078] (-) TimerEvent: {}
+[38.990566] (-) TimerEvent: {}
+[39.091059] (-) TimerEvent: {}
+[39.192337] (-) TimerEvent: {}
+[39.233774] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[39.292482] (-) TimerEvent: {}
+[39.394510] (-) TimerEvent: {}
+[39.494918] (-) TimerEvent: {}
+[39.595374] (-) TimerEvent: {}
+[39.695894] (-) TimerEvent: {}
+[39.797067] (-) TimerEvent: {}
+[39.823587] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[39.898051] (-) TimerEvent: {}
+[39.998432] (-) TimerEvent: {}
+[40.101046] (-) TimerEvent: {}
+[40.201454] (-) TimerEvent: {}
+[40.301880] (-) TimerEvent: {}
+[40.402299] (-) TimerEvent: {}
+[40.460493] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[40.502433] (-) TimerEvent: {}
+[40.605062] (-) TimerEvent: {}
+[40.705490] (-) TimerEvent: {}
+[40.805885] (-) TimerEvent: {}
+[40.906329] (-) TimerEvent: {}
+[41.006733] (-) TimerEvent: {}
+[41.107185] (-) TimerEvent: {}
+[41.135960] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[41.208194] (-) TimerEvent: {}
+[41.308619] (-) TimerEvent: {}
+[41.409028] (-) TimerEvent: {}
+[41.509489] (-) TimerEvent: {}
+[41.610916] (-) TimerEvent: {}
+[41.711493] (-) TimerEvent: {}
+[41.813275] (-) TimerEvent: {}
+[41.913742] (-) TimerEvent: {}
+[42.017298] (-) TimerEvent: {}
+[42.117731] (-) TimerEvent: {}
+[42.218186] (-) TimerEvent: {}
+[42.322248] (-) TimerEvent: {}
+[42.422661] (-) TimerEvent: {}
+[42.523103] (-) TimerEvent: {}
+[42.626177] (-) TimerEvent: {}
+[42.726593] (-) TimerEvent: {}
+[42.827022] (-) TimerEvent: {}
+[42.927448] (-) TimerEvent: {}
+[43.030077] (-) TimerEvent: {}
+[43.130536] (-) TimerEvent: {}
+[43.230945] (-) TimerEvent: {}
+[43.331358] (-) TimerEvent: {}
+[43.434274] (-) TimerEvent: {}
+[43.534659] (-) TimerEvent: {}
+[43.638250] (-) TimerEvent: {}
+[43.727078] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[43.738369] (-) TimerEvent: {}
+[43.839646] (-) TimerEvent: {}
+[43.940038] (-) TimerEvent: {}
+[44.043048] (-) TimerEvent: {}
+[44.143428] (-) TimerEvent: {}
+[44.144451] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[44.243570] (-) TimerEvent: {}
+[44.344016] (-) TimerEvent: {}
+[44.447041] (-) TimerEvent: {}
+[44.547417] (-) TimerEvent: {}
+[44.647824] (-) TimerEvent: {}
+[44.748209] (-) TimerEvent: {}
+[44.850058] (-) TimerEvent: {}
+[44.950459] (-) TimerEvent: {}
+[45.050857] (-) TimerEvent: {}
+[45.151253] (-) TimerEvent: {}
+[45.254057] (-) TimerEvent: {}
+[45.354457] (-) TimerEvent: {}
+[45.379858] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[45.454625] (-) TimerEvent: {}
+[45.555158] (-) TimerEvent: {}
+[45.638161] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[45.657068] (-) TimerEvent: {}
+[45.757538] (-) TimerEvent: {}
+[45.814755] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[45.857680] (-) TimerEvent: {}
+[45.961395] (-) TimerEvent: {}
+[46.062188] (-) TimerEvent: {}
+[46.165212] (-) TimerEvent: {}
+[46.268293] (-) TimerEvent: {}
+[46.369591] (-) TimerEvent: {}
+[46.434984] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[46.459133] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[46.469807] (-) TimerEvent: {}
+[46.573278] (-) TimerEvent: {}
+[46.673697] (-) TimerEvent: {}
+[46.774127] (-) TimerEvent: {}
+[46.865775] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[46.874264] (-) TimerEvent: {}
+[46.974693] (-) TimerEvent: {}
+[47.013393] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[47.074832] (-) TimerEvent: {}
+[47.175618] (-) TimerEvent: {}
+[47.183911] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[47.275753] (-) TimerEvent: {}
+[47.378031] (-) TimerEvent: {}
+[47.478405] (-) TimerEvent: {}
+[47.578791] (-) TimerEvent: {}
+[47.681049] (-) TimerEvent: {}
+[47.781432] (-) TimerEvent: {}
+[47.881820] (-) TimerEvent: {}
+[47.982274] (-) TimerEvent: {}
+[48.082822] (-) TimerEvent: {}
+[48.186066] (-) TimerEvent: {}
+[48.286684] (-) TimerEvent: {}
+[48.387071] (-) TimerEvent: {}
+[48.487478] (-) TimerEvent: {}
+[48.539975] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[48.588064] (-) TimerEvent: {}
+[48.690040] (-) TimerEvent: {}
+[48.790466] (-) TimerEvent: {}
+[48.890895] (-) TimerEvent: {}
+[48.992204] (-) TimerEvent: {}
+[49.094043] (-) TimerEvent: {}
+[49.194424] (-) TimerEvent: {}
+[49.199752] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[49.294558] (-) TimerEvent: {}
+[49.394929] (-) TimerEvent: {}
+[49.497064] (-) TimerEvent: {}
+[49.597422] (-) TimerEvent: {}
+[49.697831] (-) TimerEvent: {}
+[49.798282] (-) TimerEvent: {}
+[49.899054] (-) TimerEvent: {}
+[49.999411] (-) TimerEvent: {}
+[50.099783] (-) TimerEvent: {}
+[50.200200] (-) TimerEvent: {}
+[50.300617] (-) TimerEvent: {}
+[50.404037] (-) TimerEvent: {}
+[50.504424] (-) TimerEvent: {}
+[50.604809] (-) TimerEvent: {}
+[50.705221] (-) TimerEvent: {}
+[50.805611] (-) TimerEvent: {}
+[50.906046] (-) TimerEvent: {}
+[51.006425] (-) TimerEvent: {}
+[51.106815] (-) TimerEvent: {}
+[51.207206] (-) TimerEvent: {}
+[51.309050] (-) TimerEvent: {}
+[51.409440] (-) TimerEvent: {}
+[51.510762] (-) TimerEvent: {}
+[51.615189] (-) TimerEvent: {}
+[51.715587] (-) TimerEvent: {}
+[51.815999] (-) TimerEvent: {}
+[51.916373] (-) TimerEvent: {}
+[52.019234] (-) TimerEvent: {}
+[52.119634] (-) TimerEvent: {}
+[52.220112] (-) TimerEvent: {}
+[52.321506] (-) TimerEvent: {}
+[52.424227] (-) TimerEvent: {}
+[52.525475] (-) TimerEvent: {}
+[52.626805] (-) TimerEvent: {}
+[52.731219] (-) TimerEvent: {}
+[52.776195] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[52.833026] (-) TimerEvent: {}
+[52.933365] (-) TimerEvent: {}
+[53.036329] (-) TimerEvent: {}
+[53.136711] (-) TimerEvent: {}
+[53.238479] (-) TimerEvent: {}
+[53.245174] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[53.340064] (-) TimerEvent: {}
+[53.353110] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[53.440182] (-) TimerEvent: {}
+[53.515796] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[53.541369] (-) TimerEvent: {}
+[53.645259] (-) TimerEvent: {}
+[53.745680] (-) TimerEvent: {}
+[53.785096] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[53.845818] (-) TimerEvent: {}
+[53.946279] (-) TimerEvent: {}
+[54.046903] (-) TimerEvent: {}
+[54.084088] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[54.147047] (-) TimerEvent: {}
+[54.248482] (-) TimerEvent: {}
+[54.349080] (-) TimerEvent: {}
+[54.449466] (-) TimerEvent: {}
+[54.549838] (-) TimerEvent: {}
+[54.650222] (-) TimerEvent: {}
+[54.750613] (-) TimerEvent: {}
+[54.851044] (-) TimerEvent: {}
+[54.954260] (-) TimerEvent: {}
+[54.963638] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[55.054388] (-) TimerEvent: {}
+[55.157043] (-) TimerEvent: {}
+[55.257411] (-) TimerEvent: {}
+[55.357758] (-) TimerEvent: {}
+[55.458132] (-) TimerEvent: {}
+[55.517117] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[55.558264] (-) TimerEvent: {}
+[55.578306] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[55.660140] (-) TimerEvent: {}
+[55.760532] (-) TimerEvent: {}
+[55.860970] (-) TimerEvent: {}
+[55.961362] (-) TimerEvent: {}
+[56.063076] (-) TimerEvent: {}
+[56.163510] (-) TimerEvent: {}
+[56.264983] (-) TimerEvent: {}
+[56.367550] (-) TimerEvent: {}
+[56.468969] (-) TimerEvent: {}
+[56.564154] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[56.569054] (-) TimerEvent: {}
+[56.670390] (-) TimerEvent: {}
+[56.770833] (-) TimerEvent: {}
+[56.873238] (-) TimerEvent: {}
+[56.973685] (-) TimerEvent: {}
+[57.074105] (-) TimerEvent: {}
+[57.174517] (-) TimerEvent: {}
+[57.274914] (-) TimerEvent: {}
+[57.375296] (-) TimerEvent: {}
+[57.475666] (-) TimerEvent: {}
+[57.576040] (-) TimerEvent: {}
+[57.676405] (-) TimerEvent: {}
+[57.776774] (-) TimerEvent: {}
+[57.877182] (-) TimerEvent: {}
+[57.977570] (-) TimerEvent: {}
+[58.077943] (-) TimerEvent: {}
+[58.178323] (-) TimerEvent: {}
+[58.278694] (-) TimerEvent: {}
+[58.379062] (-) TimerEvent: {}
+[58.479461] (-) TimerEvent: {}
+[58.579827] (-) TimerEvent: {}
+[58.680235] (-) TimerEvent: {}
+[58.780623] (-) TimerEvent: {}
+[58.881039] (-) TimerEvent: {}
+[58.981436] (-) TimerEvent: {}
+[59.081914] (-) TimerEvent: {}
+[59.182361] (-) TimerEvent: {}
+[59.282773] (-) TimerEvent: {}
+[59.383193] (-) TimerEvent: {}
+[59.483582] (-) TimerEvent: {}
+[59.584014] (-) TimerEvent: {}
+[59.684415] (-) TimerEvent: {}
+[59.784842] (-) TimerEvent: {}
+[59.885245] (-) TimerEvent: {}
+[59.985639] (-) TimerEvent: {}
+[60.086097] (-) TimerEvent: {}
+[60.186605] (-) TimerEvent: {}
+[60.286971] (-) TimerEvent: {}
+[60.387335] (-) TimerEvent: {}
+[60.487675] (-) TimerEvent: {}
+[60.588032] (-) TimerEvent: {}
+[60.688384] (-) TimerEvent: {}
+[60.788758] (-) TimerEvent: {}
+[60.889123] (-) TimerEvent: {}
+[60.989467] (-) TimerEvent: {}
+[61.089817] (-) TimerEvent: {}
+[61.190172] (-) TimerEvent: {}
+[61.290517] (-) TimerEvent: {}
+[61.390878] (-) TimerEvent: {}
+[61.491261] (-) TimerEvent: {}
+[61.591612] (-) TimerEvent: {}
+[61.691978] (-) TimerEvent: {}
+[61.792324] (-) TimerEvent: {}
+[61.892684] (-) TimerEvent: {}
+[61.993047] (-) TimerEvent: {}
+[62.093401] (-) TimerEvent: {}
+[62.193743] (-) TimerEvent: {}
+[62.294112] (-) TimerEvent: {}
+[62.394460] (-) TimerEvent: {}
+[62.494808] (-) TimerEvent: {}
+[62.595165] (-) TimerEvent: {}
+[62.695511] (-) TimerEvent: {}
+[62.795849] (-) TimerEvent: {}
+[62.896185] (-) TimerEvent: {}
+[62.996606] (-) TimerEvent: {}
+[63.097016] (-) TimerEvent: {}
+[63.197399] (-) TimerEvent: {}
+[63.297803] (-) TimerEvent: {}
+[63.398159] (-) TimerEvent: {}
+[63.498587] (-) TimerEvent: {}
+[63.598982] (-) TimerEvent: {}
+[63.699410] (-) TimerEvent: {}
+[63.799784] (-) TimerEvent: {}
+[63.900163] (-) TimerEvent: {}
+[64.000543] (-) TimerEvent: {}
+[64.100927] (-) TimerEvent: {}
+[64.201329] (-) TimerEvent: {}
+[64.301718] (-) TimerEvent: {}
+[64.402152] (-) TimerEvent: {}
+[64.502565] (-) TimerEvent: {}
+[64.602968] (-) TimerEvent: {}
+[64.703499] (-) TimerEvent: {}
+[64.803892] (-) TimerEvent: {}
+[64.904298] (-) TimerEvent: {}
+[65.004690] (-) TimerEvent: {}
+[65.105119] (-) TimerEvent: {}
+[65.205500] (-) TimerEvent: {}
+[65.305899] (-) TimerEvent: {}
+[65.406311] (-) TimerEvent: {}
+[65.506723] (-) TimerEvent: {}
+[65.607172] (-) TimerEvent: {}
+[65.611217] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[65.707316] (-) TimerEvent: {}
+[65.807809] (-) TimerEvent: {}
+[65.908136] (-) TimerEvent: {}
+[65.960942] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[66.000895] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[66.008242] (-) TimerEvent: {}
+[66.036147] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[66.082319] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[66.108459] (-) TimerEvent: {}
+[66.118103] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[66.208678] (-) TimerEvent: {}
+[66.261235] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[66.286009] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[66.297347] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[66.297564] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3\n'}
+[66.300905] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[66.301284] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abinu/nidar_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""\n'}
+[66.301477] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[66.301561] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[66.301779] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[66.302011] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[66.302142] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[66.302217] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[66.302297] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[66.302370] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[66.302441] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[66.302510] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[66.302581] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[66.302650] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[66.302719] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[66.302787] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[66.302854] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[66.302921] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[66.303082] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[66.303209] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[66.303283] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[66.303355] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[66.303426] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[66.303571] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[66.303646] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[66.303722] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[66.303795] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[66.303866] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[66.303940] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[66.304085] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[66.304171] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[66.304264] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[66.304356] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[66.304435] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[66.304537] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[66.304610] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[66.304687] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[66.304760] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[66.304832] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[66.304904] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[66.304994] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[66.305068] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[66.305179] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[66.305251] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[66.305324] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[66.305397] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[66.305468] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[66.305569] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[66.305645] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[66.305720] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[66.305792] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[66.305864] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[66.305934] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[66.306022] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[66.306097] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[66.306171] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[66.306243] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[66.306318] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[66.306389] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[66.306463] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[66.306537] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[66.306614] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[66.306717] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[66.306860] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[66.306942] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[66.307050] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[66.307126] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[66.307203] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[66.307320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[66.307396] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[66.307474] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[66.307569] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[66.307662] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[66.307736] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[66.307810] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[66.307884] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[66.307964] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[66.308070] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[66.308140] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[66.308207] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[66.308276] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[66.308342] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[66.308431] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[66.308503] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[66.308574] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[66.308644] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[66.308715] (-) TimerEvent: {}
+[66.308851] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[66.308941] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[66.309036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[66.309116] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[66.309191] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[66.309264] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[66.309337] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[66.309409] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[66.309484] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[66.309556] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[66.309628] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[66.309699] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[66.309789] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[66.309864] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[66.309934] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[66.310021] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[66.310113] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[66.310189] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[66.310263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[66.310380] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[66.310461] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[66.310536] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[66.310608] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[66.310721] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[66.310796] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[66.310869] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[66.310976] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[66.311055] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[66.311127] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[66.311225] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[66.311309] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[66.311382] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[66.311473] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[66.311547] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[66.311618] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[66.311688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[66.311757] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[66.311825] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[66.311941] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[66.312037] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[66.312109] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[66.312182] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[66.312252] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[66.312324] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[66.312393] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[66.312464] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/abinu/nidar_ws/install/micro_ros_agent\n'}
+[66.312537] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/abinu/nidar_ws/install/micro_ros_agent/include\n'}
+[66.312607] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog\n'}
+[66.312678] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h\n'}
+[66.312753] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/spdlog.h\n'}
+[66.312826] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/logger.h\n'}
+[66.312902] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/stopwatch.h\n'}
+[66.313149] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/common-inl.h\n'}
+[66.313235] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/async_logger.h\n'}
+[66.313314] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/common.h\n'}
+[66.313390] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h\n'}
+[66.313490] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/formatter.h\n'}
+[66.313639] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/tweakme.h\n'}
+[66.313733] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/cfg\n'}
+[66.313811] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h\n'}
+[66.313889] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h\n'}
+[66.313978] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/cfg/env.h\n'}
+[66.314062] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h\n'}
+[66.314141] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks\n'}
+[66.314219] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h\n'}
+[66.314297] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[66.314413] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h\n'}
+[66.314512] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h\n'}
+[66.314615] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h\n'}
+[66.314692] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h\n'}
+[66.314771] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h\n'}
+[66.314847] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h\n'}
+[66.314921] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h\n'}
+[66.315018] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[66.315095] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h\n'}
+[66.315169] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[66.315247] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h\n'}
+[66.315323] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h\n'}
+[66.315397] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h\n'}
+[66.315471] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h\n'}
+[66.315548] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h\n'}
+[66.315628] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[66.315709] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[66.315787] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[66.315866] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h\n'}
+[66.315942] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h\n'}
+[66.316046] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[66.316124] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h\n'}
+[66.316201] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h\n'}
+[66.316281] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[66.316430] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h\n'}
+[66.316508] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h\n'}
+[66.316587] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h\n'}
+[66.316661] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h\n'}
+[66.316741] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[66.316821] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h\n'}
+[66.316899] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/version.h\n'}
+[66.316991] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fwd.h\n'}
+[66.317074] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt\n'}
+[66.317324] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h\n'}
+[66.317403] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h\n'}
+[66.317479] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h\n'}
+[66.317555] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h\n'}
+[66.317632] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h\n'}
+[66.317710] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h\n'}
+[66.317785] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled\n'}
+[66.317862] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h\n'}
+[66.317967] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h\n'}
+[66.318054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h\n'}
+[66.318132] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h\n'}
+[66.318270] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h\n'}
+[66.318346] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h\n'}
+[66.318423] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h\n'}
+[66.318535] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h\n'}
+[66.318616] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h\n'}
+[66.318696] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h\n'}
+[66.318772] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h\n'}
+[66.318850] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h\n'}
+[66.318926] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h\n'}
+[66.319023] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/logger-inl.h\n'}
+[66.319139] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h\n'}
+[66.319217] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details\n'}
+[66.319296] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h\n'}
+[66.319379] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h\n'}
+[66.319457] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h\n'}
+[66.319534] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h\n'}
+[66.319611] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[66.319689] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h\n'}
+[66.319767] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h\n'}
+[66.319847] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h\n'}
+[66.319922] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h\n'}
+[66.320033] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h\n'}
+[66.320135] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h\n'}
+[66.320234] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/registry.h\n'}
+[66.320332] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h\n'}
+[66.320426] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h\n'}
+[66.320582] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h\n'}
+[66.320760] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h\n'}
+[66.320849] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h\n'}
+[66.320926] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h\n'}
+[66.321019] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h\n'}
+[66.321098] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h\n'}
+[66.321173] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h\n'}
+[66.321250] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h\n'}
+[66.321327] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/os.h\n'}
+[66.321400] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h\n'}
+[66.321484] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h\n'}
+[66.321584] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/include/spdlog/async.h\n'}
+[66.321681] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/abinu/nidar_ws/install/micro_ros_agent/lib\n'}
+[66.321777] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/libspdlog.a\n'}
+[66.321902] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/pkgconfig\n'}
+[66.322079] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc\n'}
+[66.322169] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/cmake\n'}
+[66.322248] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/cmake/spdlog\n'}
+[66.322329] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[66.322408] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[66.322483] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[66.322556] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/abinu/nidar_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[66.351388] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[66.404091] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[66.408827] (-) TimerEvent: {}
+[66.438416] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[66.474126] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[66.508978] (-) TimerEvent: {}
+[66.510029] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[66.547502] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[66.585940] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[66.599388] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/abinu/nidar_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[66.609124] (-) TimerEvent: {}
+[66.623235] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[66.709345] (-) TimerEvent: {}
+[66.809713] (-) TimerEvent: {}
+[66.864148] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /home/abinu/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[66.909924] (-) TimerEvent: {}
+[66.998941] (micro_ros_agent) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[67.010173] (-) TimerEvent: {}
+[67.110460] (-) TimerEvent: {}
+[67.154297] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[67.161485] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[67.210680] (-) TimerEvent: {}
+[67.311118] (-) TimerEvent: {}
+[67.330587] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[67.332108] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[67.344071] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.6.9 (/opt/ros/jazzy/share/rosidl_cmake/cmake)\n'}
+[67.347874] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[67.368516] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.6.4 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)\n'}
+[67.371964] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 3.1.1 (/opt/ros/jazzy/share/rmw_dds_common/cmake)\n'}
+[67.411419] (-) TimerEvent: {}
+[67.445632] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[67.475224] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[67.494313] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[67.511619] (-) TimerEvent: {}
+[67.526077] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[67.561558] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[67.609871] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[67.611766] (-) TimerEvent: {}
+[67.612787] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[67.617035] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[67.620095] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 1.0.0 (/opt/ros/jazzy/share/micro_ros_msgs/cmake)\n'}
+[67.711968] (-) TimerEvent: {}
+[67.804820] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[67.812052] (-) TimerEvent: {}
+[67.814690] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[67.818722] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/abinu/nidar_ws/build/micro_ros_agent\n'}
+[67.850287] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[67.912252] (-) TimerEvent: {}
+[67.912626] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[67.912938] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[67.913146] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[67.915914] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[67.917702] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[68.012420] (-) TimerEvent: {}
+[68.112832] (-) TimerEvent: {}
+[68.213244] (-) TimerEvent: {}
+[68.313607] (-) TimerEvent: {}
+[68.414027] (-) TimerEvent: {}
+[68.514402] (-) TimerEvent: {}
+[68.614768] (-) TimerEvent: {}
+[68.715175] (-) TimerEvent: {}
+[68.815578] (-) TimerEvent: {}
+[68.916102] (-) TimerEvent: {}
+[69.016509] (-) TimerEvent: {}
+[69.116933] (-) TimerEvent: {}
+[69.217338] (-) TimerEvent: {}
+[69.317781] (-) TimerEvent: {}
+[69.418281] (-) TimerEvent: {}
+[69.518684] (-) TimerEvent: {}
+[69.619180] (-) TimerEvent: {}
+[69.719587] (-) TimerEvent: {}
+[69.819971] (-) TimerEvent: {}
+[69.920363] (-) TimerEvent: {}
+[70.020860] (-) TimerEvent: {}
+[70.121264] (-) TimerEvent: {}
+[70.221645] (-) TimerEvent: {}
+[70.322069] (-) TimerEvent: {}
+[70.422497] (-) TimerEvent: {}
+[70.523115] (-) TimerEvent: {}
+[70.623565] (-) TimerEvent: {}
+[70.724075] (-) TimerEvent: {}
+[70.824445] (-) TimerEvent: {}
+[70.924943] (-) TimerEvent: {}
+[71.025329] (-) TimerEvent: {}
+[71.125748] (-) TimerEvent: {}
+[71.226187] (-) TimerEvent: {}
+[71.326578] (-) TimerEvent: {}
+[71.427013] (-) TimerEvent: {}
+[71.527367] (-) TimerEvent: {}
+[71.627815] (-) TimerEvent: {}
+[71.728179] (-) TimerEvent: {}
+[71.828564] (-) TimerEvent: {}
+[71.929026] (-) TimerEvent: {}
+[72.029360] (-) TimerEvent: {}
+[72.129810] (-) TimerEvent: {}
+[72.230192] (-) TimerEvent: {}
+[72.330625] (-) TimerEvent: {}
+[72.431075] (-) TimerEvent: {}
+[72.507814] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[72.531199] (-) TimerEvent: {}
+[72.631622] (-) TimerEvent: {}
+[72.732046] (-) TimerEvent: {}
+[72.832422] (-) TimerEvent: {}
+[72.932933] (-) TimerEvent: {}
+[72.963944] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[73.000174] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[73.033107] (-) TimerEvent: {}
+[73.035240] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[73.081892] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[73.098091] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[73.099293] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[73.113487] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abinu/nidar_ws/build/micro_ros_agent'], 'cwd': '/home/abinu/nidar_ws/build/micro_ros_agent', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/lib/ardupilot_gazebo/:/home/abinu/ardupilot_gazebo/build:', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3162-1-abinu-Aspire-A515-58GM_TIME98906', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds:/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models:/home/abinu/ardupilot_gazebo/models:/home/abinu/ardupilot_gazebo/worlds:/home/abinu/multi_drone/models:/home/abinu/multi_drone/worlds:', 'LANGUAGE': 'en_IN:en', 'USER': 'abinu', 'ROS_PACKAGE_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/share', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/lib:/home/abinu/nidar_ws/install/ardupilot_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abinu', 'OLDPWD': '/home/abinu/nidar_ws/src/micro-ros-agent', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'MANAGERPID': '2406', 'SYSTEMD_EXEC_PID': '3162', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'NIDAR_JAVA_HOME': '/usr/lib/jvm/java-17-openjdk-amd64', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5437', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/abinu/nidar_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abinu', 'JOURNAL_STREAM': '8:16765', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/abinu/nidar_ws/install/nidar_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/abinu/nidar_ws/install/nidar_interfaces/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abinu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/abinu/nidar_ws/install/ardupilot_sitl/bin:/opt/ros/jazzy/bin:/usr/lib/ccache:/home/abinu/nidar_ws/src/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/abinu/venv-ardupilot/bin:/home/abinu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts:/home/abinu/nidar_ws/src/ardupilot/Tools/autotest:/home/abinu/nidar_ws/src/microxrcedds_gen/scripts', 'SESSION_MANAGER': 'local/abinu-Aspire-A515-58GM:@/tmp/.ICE-unix/3129,unix/abinu-Aspire-A515-58GM:/tmp/.ICE-unix/3129', 'INVOCATION_ID': '0cc4fc7edd6241cc80a77d710a3fe986', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/nidar_bringup:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2ad4a3fc-cff0-46e7-8f8a-443dc3d1f5eb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'GZ_VERSION': 'harmonic', 'VIRTUAL_ENV': '/home/abinu/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abinu/nidar_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SDF_PATH': '/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/worlds:/home/abinu/nidar_ws/install/ardupilot_gazebo/share/ardupilot_gazebo/models', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abinu/nidar_ws/build/nidar_scout:/home/abinu/nidar_ws/install/nidar_scout/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_scoring:/home/abinu/nidar_ws/install/nidar_scoring/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_safety:/home/abinu/nidar_ws/install/nidar_safety/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_payload:/home/abinu/nidar_ws/install/nidar_payload/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_mission:/home/abinu/nidar_ws/install/nidar_mission/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_delivery:/home/abinu/nidar_ws/install/nidar_delivery/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/nidar_interfaces/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_geotag:/home/abinu/nidar_ws/install/nidar_geotag/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_gcs:/home/abinu/nidar_ws/install/nidar_gcs/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_detection:/home/abinu/nidar_ws/install/nidar_detection/lib/python3.12/site-packages:/home/abinu/nidar_ws/build/nidar_bringup:/home/abinu/nidar_ws/install/nidar_bringup/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/ardupilot_sitl/lib/python3.12/site-packages:/home/abinu/nidar_ws/install/ardupilot_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/abinu/nidar_ws/install/nidar_world:/home/abinu/nidar_ws/install/nidar_scout_description:/home/abinu/nidar_ws/install/nidar_scout:/home/abinu/nidar_ws/install/nidar_scoring:/home/abinu/nidar_ws/install/nidar_safety:/home/abinu/nidar_ws/install/nidar_payload:/home/abinu/nidar_ws/install/nidar_mission:/home/abinu/nidar_ws/install/nidar_delivery:/home/abinu/nidar_ws/install/nidar_geotag:/home/abinu/nidar_ws/install/nidar_gcs:/home/abinu/nidar_ws/install/nidar_detection:/home/abinu/nidar_ws/install/nidar_bringup:/opt/ros/jazzy:/home/abinu/nidar_ws/install/nidar_interfaces:/home/abinu/nidar_ws/install/nidar_delivery_description:/home/abinu/nidar_ws/install/ardupilot_sitl:/home/abinu/nidar_ws/install/ardupilot_msgs:/home/abinu/nidar_ws/install/ardupilot_gazebo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[73.124926] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[73.125574] (micro_ros_agent) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[73.125967] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[73.133223] (-) TimerEvent: {}
+[73.138618] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[73.150826] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[73.162510] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[73.174773] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[73.186055] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[73.198238] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[73.210088] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[73.226034] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[73.233334] (-) TimerEvent: {}
+[73.241613] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[73.254603] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[73.267143] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[73.278798] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[73.290327] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[73.302430] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[73.314480] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[73.326505] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[73.333443] (-) TimerEvent: {}
+[73.339618] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /home/abinu/nidar_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[73.354627] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[73.382832] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[73.383397] (-) EventReactorShutdown: {}

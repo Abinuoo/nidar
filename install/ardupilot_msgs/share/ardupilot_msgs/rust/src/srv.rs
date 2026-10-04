@@ -1,0 +1,1 @@
+/home/abinu/nidar_ws/build/ardupilot_msgs/rosidl_generator_rs/ardupilot_msgs/rust/src/srv.rs

@@ -1,0 +1,15 @@
+{
+  "package_name": "nidar_interfaces",
+  "output_dir": "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_generator_type_description/nidar_interfaces",
+  "idl_tuples": [
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/SurvivorDetection.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DeliveryTask.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DeliveryResult.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/DroneStatus.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/MissionStatus.idl",
+    "/home/abinu/nidar_ws/build/nidar_interfaces/rosidl_adapter/nidar_interfaces:msg/MissionScore.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

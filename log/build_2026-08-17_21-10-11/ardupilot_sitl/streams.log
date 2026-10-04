@@ -1,0 +1,84 @@
+[0.011s] Invoking command in '/home/abinu/nidar_ws/build/ardupilot_sitl': AMENT_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/abinu/nidar_ws/src/ardupilot/Tools/ros2/ardupilot_sitl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abinu/nidar_ws/install/ardupilot_sitl
+[0.091s] -- The C compiler identification is GNU 13.3.0
+[0.180s] -- The CXX compiler identification is GNU 13.3.0
+[0.210s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.343s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.360s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.521s] -- Detecting CXX compile features
+[0.521s] -- Detecting CXX compile features - done
+[0.525s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.748s] -- Found Python3: /home/abinu/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.845s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.874s] -- WAF_COMMAND: /home/abinu/nidar_ws/src/ardupilot/waf
+[1.063s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.235s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.237s] -- Added test 'lint_cmake' to check CMake code style
+[1.238s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.240s] -- Added test 'xmllint' to check XML markup files
+[1.242s] -- Configuring done (1.2s)
+[1.247s] -- Generating done (0.0s)
+[1.250s] -- Build files have been written to: /home/abinu/nidar_ws/build/ardupilot_sitl
+[1.256s] Invoked command in '/home/abinu/nidar_ws/build/ardupilot_sitl' returned '0': AMENT_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/abinu/nidar_ws/src/ardupilot/Tools/ros2/ardupilot_sitl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abinu/nidar_ws/install/ardupilot_sitl
+[1.257s] Invoking command in '/home/abinu/nidar_ws/build/ardupilot_sitl': AMENT_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/abinu/nidar_ws/build/ardupilot_sitl -- -j12 -l12
+[1.337s] Built target ament_cmake_python_symlink_ardupilot_sitl
+[1.660s] running egg_info
+[1.684s] creating ardupilot_sitl.egg-info
+[1.685s] writing ardupilot_sitl.egg-info/PKG-INFO
+[1.685s] writing dependency_links to ardupilot_sitl.egg-info/dependency_links.txt
+[1.685s] writing top-level names to ardupilot_sitl.egg-info/top_level.txt
+[1.685s] writing manifest file 'ardupilot_sitl.egg-info/SOURCES.txt'
+[1.755s] reading manifest file 'ardupilot_sitl.egg-info/SOURCES.txt'
+[1.756s] writing manifest file 'ardupilot_sitl.egg-info/SOURCES.txt'
+[1.774s] [32m[0mSetting top to                           :[0m [0m[32m[32m/home/abinu/nidar_ws/src/ardupilot[0m [0m
+[1.775s] [32m[0mSetting out to                           :[0m [0m[32m[32m/home/abinu/nidar_ws/src/ardupilot/build[0m [0m
+[1.789s] [32m[0mAutoconfiguration                        :[0m [0m[32m[32menabled[0m [0m
+[1.789s] [32m[0mChecking for program 'python'            :[0m [0m[32m[32m/home/abinu/venv-ardupilot/bin/python3[0m [0m
+[1.801s] Built target ament_cmake_python_build_ardupilot_sitl_egg
+[2.232s] [32m[0mChecking for python version >= 3.9.0     :[0m [0m[32m[32m3.12.3[0m [0m
+[2.241s] [32m[0mSetting board to                         :[0m [0m[32m[32msitl[0m [0m
+[2.243s] Processing /home/abinu/nidar_ws/src/ardupilot/libraries/AP_HAL_SITL/hwdef/sitl/hwdef.dat
+[2.244s] Writing hwdef setup in /home/abinu/nidar_ws/src/ardupilot/build/sitl/hwdef.h
+[2.245s] [32m[0mUsing toolchain                          :[0m [0m[32m[32mnative[0m [0m
+[2.273s] [32m[0mChecking for 'g++' (C++ compiler)        :[0m [0m[32m[32m/usr/lib/ccache/g++[0m [0m
+[2.300s] [32m[0mChecking for 'gcc' (C compiler)          :[0m [0m[32m[32m/usr/lib/ccache/gcc[0m [0m
+[2.312s] [32m[0mChecking for c flags '-MMD'              :[0m [0m[32m[32myes[0m [0m
+[2.326s] [32m[0mChecking for cxx flags '-MMD'            :[0m [0m[32m[32myes[0m [0m
+[2.328s] [32m[0mCXX Compiler                             :[0m [0m[32m[32mg++ 13.3.0[0m [0m
+[2.408s] [32m[0mChecking for need to link with librt     :[0m [0m[32m[32mnot necessary[0m [0m
+[2.499s] [32m[0mChecking for feenableexcept              :[0m [0m[32m[32myes[0m [0m
+[2.500s] [32m[0mEnabling -Werror                         :[0m [0m[32m[32mno[0m [0m
+[2.500s] [32m[0mEnabled OpenDroneID                      :[0m [0m[32m[33mno[0m [0m
+[2.500s] [32m[0mEnabled firmware ID checking             :[0m [0m[32m[33mno[0m [0m
+[2.500s] [32m[0mGPS Debug Logging                        :[0m [0m[32m[33mno[0m [0m
+[2.501s] [32m[0mEnabled DDS                              :[0m [0m[32m[32myes[0m [0m
+[2.639s] [32m[0mChecking for HAVE_CMATH_ISFINITE         :[0m [0m[32m[32myes[0m [0m
+[2.767s] [32m[0mChecking for HAVE_CMATH_ISINF            :[0m [0m[32m[32myes[0m [0m
+[2.887s] [32m[0mChecking for HAVE_CMATH_ISNAN            :[0m [0m[32m[32myes[0m [0m
+[2.994s] [32m[0mChecking for NEED_CMATH_ISFINITE_STD_NAMESPACE :[0m [0m[32m[32myes[0m [0m
+[3.102s] [32m[0mChecking for NEED_CMATH_ISINF_STD_NAMESPACE    :[0m [0m[32m[32myes[0m [0m
+[3.207s] [32m[0mChecking for NEED_CMATH_ISNAN_STD_NAMESPACE    :[0m [0m[32m[32myes[0m [0m
+[3.280s] [32m[0mChecking for header endian.h                   :[0m [0m[32m[32myes[0m [0m
+[3.358s] [32m[0mChecking for header byteswap.h                 :[0m [0m[32m[32myes[0m [0m
+[3.429s] [32m[0mChecking for HAVE_MEMRCHR                      :[0m [0m[32m[32myes[0m [0m
+[3.431s] [32m[0mConfigured VSCode Intellisense:                :[0m [0m[32m[33mno[0m [0m
+[3.439s] [32m[0mDC_DSDL compiler in                            :[0m [0m[32m[32m/home/abinu/nidar_ws/src/ardupilot/modules/DroneCAN/dronecan_dsdlc[0m [0m
+[3.439s] [32m[0mSource is git repository                       :[0m [0m[32m[32myes[0m [0m
+[3.439s] [32m[0mUpdate submodules                              :[0m [0m[32m[32myes[0m [0m
+[3.442s] [32m[0mChecking for program 'git'                     :[0m [0m[32m[32m/usr/bin/git[0m [0m
+[3.443s] [32m[0mLittlefs                                       :[0m [0m[32m[33mdisabled[0m [0m
+[3.444s] [32m[0mChecking for program 'size'                    :[0m [0m[32m[32m/usr/bin/size[0m [0m
+[3.444s] [32m[0mBenchmarks                                     :[0m [0m[32m[33mdisabled[0m [0m
+[3.444s] [32m[0mUnit tests                                     :[0m [0m[32m[32menabled[0m [0m
+[3.445s] [32m[0mScripting                                      :[0m [0m[32m[32mmaybe[0m [0m
+[3.472s] [32m[0mChecking for program 'microxrceddsgen'         :[0m [0m[32m[33mnot found[0m [0m
+[3.476s] [01;31mCould not find the program ['microxrceddsgen']
+[3.476s] (complete log in /home/abinu/nidar_ws/src/ardupilot/build/config.log)[0m
+[3.516s] gmake[2]: *** [CMakeFiles/ardupilot_configure.dir/build.make:70: CMakeFiles/ardupilot_configure] Error 1
+[3.517s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/ardupilot_configure.dir/all] Error 2
+[3.517s] gmake: *** [Makefile:146: all] Error 2
+[3.520s] Invoked command in '/home/abinu/nidar_ws/build/ardupilot_sitl' returned '2': AMENT_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/abinu/nidar_ws/install/ardupilot_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/abinu/nidar_ws/build/ardupilot_sitl -- -j12 -l12
